@@ -1,0 +1,1499 @@
+﻿2025-09-15 14:51:25.114  === Denial full refresh start ===
+2025-09-15 14:51:25.436  Error: Exception calling "Fill" with "1" argument(s): "An expression of non-boolean type specified in a context where a condition is expected, near 'THEN'.
+Incorrect syntax near the keyword 'LEFT'.
+Incorrect syntax near the keyword 'AS'."
+2025-09-15 14:58:24.373  === Denial full refresh start ===
+2025-09-15 14:58:24.743  Error: Exception calling "Fill" with "1" argument(s): "Invalid column name 'IsPolicyDriver'.
+Invalid column name 'IsPolicyVehicle'.
+Invalid column name 'Make'.
+Invalid column name 'Year'.
+Invalid column name 'Uber'.
+Invalid column name 'Uber'.
+Invalid column name 'Uber'.
+Invalid column name 'AdjusterMemberName'.
+Invalid column name 'IsPolicyDriver'.
+Invalid column name 'IsPolicyVehicle'.
+Invalid column name 'Make'.
+Invalid column name 'Year'.
+Invalid column name 'Uber'.
+Invalid column name 'Uber'.
+Invalid column name 'Uber'.
+Invalid column name 'AdjusterMemberName'."
+2025-09-15 15:02:57.406  === Denial full refresh start ===
+2025-09-15 15:02:57.711  Error: Exception calling "Fill" with "1" argument(s): "Invalid column name 'IsPolicyVehicle'.
+Invalid column name 'IsPolicyVehicle'."
+2025-09-15 15:05:41.644  === Denial full refresh start ===
+2025-09-15 15:05:47.235  Fetched rows: 6672 | Columns: 6672
+2025-09-15 15:05:47.259  Truncating target: dbo.[Denial]
+2025-09-15 15:05:47.657  Bulk copying directly to target...
+2025-09-15 15:05:47.690  Error: Source returned 6672 columns, but 30 are required by dbo.[Denial].
+2025-09-16 08:22:48.365  === Denial full refresh start ===
+2025-09-16 08:22:59.756  Fetched rows: 6704 | Columns: 6704
+2025-09-16 08:23:00.066  Truncating target: dbo.[Denial]
+2025-09-16 08:23:00.871  Bulk copying directly to target...
+2025-09-16 08:23:01.841  Error: Source returned 6704 columns, but 30 are required by dbo.[Denial].
+2025-09-16 08:49:31.663  === Denial full refresh start ===
+2025-09-16 08:49:38.806  Fetched rows: 6704 | Columns: 6704
+2025-09-16 08:49:38.856  Truncating target: dbo.[Denial]
+2025-09-16 08:49:39.301  Bulk copying directly to target...
+2025-09-16 08:49:39.349  Error: Source returned 6704 columns, but 30 are required by dbo.[Denial].
+2025-09-16 09:19:31.384  === Denial full refresh start ===
+2025-09-16 09:19:38.730  Fetched rows: 6704 | Columns: 6704
+2025-09-16 09:19:38.750  Truncating target: dbo.[Denial]
+2025-09-16 09:19:40.342  Bulk copying directly to target...
+2025-09-16 09:19:40.408  Error: Source returned 6704 columns, but 30 are required by dbo.[Denial].
+2025-09-16 09:49:31.404  === Denial full refresh start ===
+2025-09-16 09:49:38.485  Fetched rows: 6704 | Columns: 6704
+2025-09-16 09:49:38.505  Truncating target: dbo.[Denial]
+2025-09-16 09:49:39.262  Bulk copying directly to target...
+2025-09-16 09:49:39.322  Error: Source returned 6704 columns, but 30 are required by dbo.[Denial].
+2025-09-16 10:19:31.376  === Denial full refresh start ===
+2025-09-16 10:19:38.453  Fetched rows: 6704 | Columns: 6704
+2025-09-16 10:19:38.479  Truncating target: dbo.[Denial]
+2025-09-16 10:19:38.909  Bulk copying directly to target...
+2025-09-16 10:19:38.957  Error: Source returned 6704 columns, but 30 are required by dbo.[Denial].
+2025-09-16 10:42:14.462  === Denial full refresh start ===
+2025-09-16 10:42:21.477  Fetched rows: 6704 | Columns: 6704
+2025-09-16 10:42:21.501  Truncating target: dbo.[Denial]
+2025-09-16 10:42:21.865  Bulk copying directly to target...
+2025-09-16 10:42:22.056  Error: Exception calling "WriteToServer" with "1" argument(s): "The given ColumnMapping does not match up with any column in the source or destination."
+2025-09-16 10:49:30.982  === Denial full refresh start ===
+2025-09-16 10:49:38.179  Fetched rows: 6704 | Columns: 6704
+2025-09-16 10:49:38.203  Truncating target: dbo.[Denial]
+2025-09-16 10:49:38.601  Bulk copying directly to target...
+2025-09-16 10:49:38.736  Error: Exception calling "WriteToServer" with "1" argument(s): "The given ColumnMapping does not match up with any column in the source or destination."
+2025-09-16 10:49:59.722  === Denial full refresh start ===
+2025-09-16 10:49:59.763  SQL length: 14785
+2025-09-16 10:51:16.339  Fetched rows: 6704 | Columns: 6704
+2025-09-16 10:51:16.363  Truncating target: dbo.[Denial]
+2025-09-16 10:51:16.721  Bulk copying directly to target (name-mapped)...
+2025-09-16 10:51:16.739  Source columns count: 6704
+2025-09-16 10:51:16.771  First 12 source cols: 
+2025-09-16 10:51:16.808  Error: Source is missing expected columns: IsPolicyDriver, IsPolicyVehicle, InsuredName, DriverName, LossDate, PolicyNumber, PolicyEffectiveDate, PolicyExpirationDate, ClaimNumber, LocationDescription, LossTime, Make, Model, Year, VIN, BusinessActivity, MailingStreetAddress, MailingCity, MailingState, MailingZipCode, BIPerPerson, BIPerAccident, PD, CompDed, CollDed, AdjusterMemberName, GaragingAddress, CancellationDate, PolicyCoverages, InsuredEmail
+2025-09-16 10:55:09.257  === Denial full refresh start ===
+2025-09-16 10:55:09.302  SQL length: 14785
+2025-09-16 10:56:21.813  Fetched rows: 6704 | Columns: 6704
+2025-09-16 10:56:21.834  Truncating target: dbo.[Denial]
+2025-09-16 10:56:22.227  Bulk copying directly to target (name-mapped)...
+2025-09-16 10:56:22.259  Source columns count: 6704
+2025-09-16 10:56:22.289  First 12 source cols: 
+2025-09-16 10:56:22.323  Error: Source is missing expected columns: IsPolicyDriver, IsPolicyVehicle, InsuredName, DriverName, LossDate, PolicyNumber, PolicyEffectiveDate, PolicyExpirationDate, ClaimNumber, LocationDescription, LossTime, Make, Model, Year, VIN, BusinessActivity, MailingStreetAddress, MailingCity, MailingState, MailingZipCode, BIPerPerson, BIPerAccident, PD, CompDed, CollDed, AdjusterMemberName, GaragingAddress, CancellationDate, PolicyCoverages, InsuredEmail
+2025-09-16 11:11:00.389  === Full refresh start ===
+2025-09-16 11:11:07.372  Fetched rows: 6704 | Columns: 6704
+2025-09-16 11:11:07.391  Truncating target: dbo.[Denial]
+2025-09-16 11:11:07.803  Bulk copying directly to target...
+2025-09-16 11:11:08.229  === Full refresh done ===
+2025-09-16 11:19:30.959  === Full refresh start ===
+2025-09-16 11:19:37.569  Fetched rows: 6704 | Columns: 6704
+2025-09-16 11:19:37.595  Truncating target: dbo.[Denial]
+2025-09-16 11:19:38.062  Bulk copying directly to target...
+2025-09-16 11:19:38.458  === Full refresh done ===
+2025-09-16 11:21:41.250  === Full refresh start ===
+2025-09-16 11:21:41.567  First 10 source cols: 
+2025-09-16 11:21:41.567  Error: Exception calling "Fill" with "1" argument(s): "Incorrect syntax near ','.
+Incorrect syntax near the keyword 'LEFT'.
+Incorrect syntax near the keyword 'AS'."
+2025-09-16 11:22:15.650  === Full refresh start ===
+2025-09-16 11:22:16.175  First 10 source cols: 
+2025-09-16 11:22:16.188  Error: Exception calling "Fill" with "1" argument(s): "Incorrect syntax near ','.
+Incorrect syntax near the keyword 'LEFT'.
+Incorrect syntax near the keyword 'AS'."
+2025-09-16 11:26:34.791  === Full refresh start ===
+2025-09-16 11:27:53.154  Fetched rows: 6704 | Columns: 6704
+2025-09-16 11:27:53.190  Truncating target: dbo.[Denial]
+2025-09-16 11:27:53.584  Bulk copying directly to target...
+2025-09-16 11:27:54.046  === Full refresh done ===
+2025-09-16 11:32:10.057  === Full refresh start ===
+2025-09-16 11:33:22.591  Fetched rows: 6704 | Columns: 6704
+2025-09-16 11:33:22.622  Truncating target: dbo.[Denial]
+2025-09-16 11:33:23.040  Bulk copying directly to target...
+2025-09-16 11:33:23.645  === Full refresh done ===
+2025-09-16 11:49:30.988  === Full refresh start ===
+2025-09-16 11:50:46.603  Fetched rows: 6704 | Columns: 6704
+2025-09-16 11:50:46.626  Truncating target: dbo.[Denial]
+2025-09-16 11:50:47.051  Bulk copying directly to target...
+2025-09-16 11:50:47.514  === Full refresh done ===
+2025-09-16 11:58:00.319  === Full refresh start ===
+2025-09-16 11:59:14.873  Fetched rows: 6704 | Columns: 6704
+2025-09-16 11:59:14.894  Truncating target: dbo.[Denial]
+2025-09-16 11:59:15.217  Bulk copying directly to target...
+2025-09-16 11:59:15.686  === Full refresh done ===
+2025-09-16 12:19:30.959  === Full refresh start ===
+2025-09-16 12:20:46.045  Fetched rows: 6704 | Columns: 6704
+2025-09-16 12:20:46.062  Truncating target: dbo.[Denial]
+2025-09-16 12:20:46.414  Bulk copying directly to target...
+2025-09-16 12:20:47.021  === Full refresh done ===
+2025-09-16 12:49:31.038  === Full refresh start ===
+2025-09-16 12:50:45.393  Fetched rows: 6704 | Columns: 6704
+2025-09-16 12:50:45.409  Truncating target: dbo.[Denial]
+2025-09-16 12:50:45.773  Bulk copying directly to target...
+2025-09-16 12:50:46.394  === Full refresh done ===
+2025-09-16 13:19:30.975  === Full refresh start ===
+2025-09-16 13:20:47.180  Fetched rows: 6704 | Columns: 6704
+2025-09-16 13:20:47.201  Truncating target: dbo.[Denial]
+2025-09-16 13:20:47.551  Bulk copying directly to target...
+2025-09-16 13:20:48.202  === Full refresh done ===
+2025-09-16 13:49:31.460  === Full refresh start ===
+2025-09-16 13:50:46.295  Fetched rows: 6704 | Columns: 6704
+2025-09-16 13:50:46.359  Truncating target: dbo.[Denial]
+2025-09-16 13:50:46.725  Bulk copying directly to target...
+2025-09-16 13:50:47.280  === Full refresh done ===
+2025-09-16 14:19:31.394  === Full refresh start ===
+2025-09-16 14:20:48.615  Fetched rows: 6704 | Columns: 6704
+2025-09-16 14:20:48.642  Truncating target: dbo.[Denial]
+2025-09-16 14:20:49.013  Bulk copying directly to target...
+2025-09-16 14:20:49.573  === Full refresh done ===
+2025-09-16 14:49:31.269  === Full refresh start ===
+2025-09-16 14:50:48.759  Fetched rows: 6704 | Columns: 6704
+2025-09-16 14:50:48.822  Truncating target: dbo.[Denial]
+2025-09-16 14:50:49.253  Bulk copying directly to target...
+2025-09-16 14:50:49.816  === Full refresh done ===
+2025-09-16 15:19:31.320  === Full refresh start ===
+2025-09-16 15:20:46.672  Fetched rows: 6704 | Columns: 6704
+2025-09-16 15:20:46.716  Truncating target: dbo.[Denial]
+2025-09-16 15:20:47.093  Bulk copying directly to target...
+2025-09-16 15:20:47.772  === Full refresh done ===
+2025-09-16 15:49:31.435  === Full refresh start ===
+2025-09-16 15:50:47.394  Fetched rows: 6704 | Columns: 6704
+2025-09-16 15:50:47.430  Truncating target: dbo.[Denial]
+2025-09-16 15:50:47.814  Bulk copying directly to target...
+2025-09-16 15:50:48.373  === Full refresh done ===
+2025-09-16 16:19:30.951  === Full refresh start ===
+2025-09-16 16:20:45.373  Fetched rows: 6704 | Columns: 6704
+2025-09-16 16:20:45.395  Truncating target: dbo.[Denial]
+2025-09-16 16:20:45.787  Bulk copying directly to target...
+2025-09-16 16:20:46.281  === Full refresh done ===
+2025-09-16 16:49:31.029  === Full refresh start ===
+2025-09-16 16:50:46.523  Fetched rows: 6704 | Columns: 6704
+2025-09-16 16:50:46.547  Truncating target: dbo.[Denial]
+2025-09-16 16:50:46.964  Bulk copying directly to target...
+2025-09-16 16:50:47.532  === Full refresh done ===
+2025-09-16 17:19:31.352  === Full refresh start ===
+2025-09-16 17:20:44.338  Fetched rows: 6704 | Columns: 6704
+2025-09-16 17:20:44.395  Truncating target: dbo.[Denial]
+2025-09-16 17:20:44.836  Bulk copying directly to target...
+2025-09-16 17:20:45.414  === Full refresh done ===
+2025-09-16 17:49:31.380  === Full refresh start ===
+2025-09-16 17:50:47.981  Fetched rows: 6704 | Columns: 6704
+2025-09-16 17:50:48.002  Truncating target: dbo.[Denial]
+2025-09-16 17:50:48.419  Bulk copying directly to target...
+2025-09-16 17:50:49.135  === Full refresh done ===
+2025-09-16 18:19:31.288  === Full refresh start ===
+2025-09-16 18:20:44.514  Fetched rows: 6704 | Columns: 6704
+2025-09-16 18:20:44.572  Truncating target: dbo.[Denial]
+2025-09-16 18:20:45.137  Bulk copying directly to target...
+2025-09-16 18:20:45.841  === Full refresh done ===
+2025-09-16 18:49:31.391  === Full refresh start ===
+2025-09-16 18:50:47.640  Fetched rows: 6704 | Columns: 6704
+2025-09-16 18:50:47.687  Truncating target: dbo.[Denial]
+2025-09-16 18:50:48.101  Bulk copying directly to target...
+2025-09-16 18:50:48.735  === Full refresh done ===
+2025-09-16 19:19:30.926  === Full refresh start ===
+2025-09-16 19:20:45.384  Fetched rows: 6704 | Columns: 6704
+2025-09-16 19:20:45.405  Truncating target: dbo.[Denial]
+2025-09-16 19:20:45.756  Bulk copying directly to target...
+2025-09-16 19:20:46.408  === Full refresh done ===
+2025-09-16 19:49:31.112  === Full refresh start ===
+2025-09-16 19:50:45.077  Fetched rows: 6704 | Columns: 6704
+2025-09-16 19:50:45.096  Truncating target: dbo.[Denial]
+2025-09-16 19:50:45.512  Bulk copying directly to target...
+2025-09-16 19:50:46.097  === Full refresh done ===
+2025-09-16 20:19:31.514  === Full refresh start ===
+2025-09-16 20:20:46.197  Fetched rows: 6704 | Columns: 6704
+2025-09-16 20:20:46.225  Truncating target: dbo.[Denial]
+2025-09-16 20:20:46.678  Bulk copying directly to target...
+2025-09-16 20:20:47.160  === Full refresh done ===
+2025-09-16 20:49:31.270  === Full refresh start ===
+2025-09-16 20:50:45.209  Fetched rows: 6704 | Columns: 6704
+2025-09-16 20:50:45.255  Truncating target: dbo.[Denial]
+2025-09-16 20:50:45.698  Bulk copying directly to target...
+2025-09-16 20:50:46.192  === Full refresh done ===
+2025-09-16 21:19:30.969  === Full refresh start ===
+2025-09-16 21:19:33.087  First 10 source cols: 
+2025-09-16 21:19:33.087  Error: Exception calling "Fill" with "1" argument(s): "Database 'WH_ONWARD_pmsppadb' cannot be opened. It is in the middle of a restore."
+2025-09-16 21:49:30.925  === Full refresh start ===
+2025-09-16 21:49:31.295  First 10 source cols: 
+2025-09-16 21:49:31.301  Error: Exception calling "Fill" with "1" argument(s): "Database 'WH_ONWARD_pmsppadb' cannot be opened. It is in the middle of a restore."
+2025-09-16 22:19:31.440  === Full refresh start ===
+2025-09-16 22:19:41.977  First 10 source cols: 
+2025-09-16 22:19:41.977  Error: Exception calling "Fill" with "1" argument(s): "Cannot open database "WH_ONWARD_claimsystem" requested by the login. The login failed.
+Login failed for user 'jLin2@knightcompany.com'."
+2025-09-16 22:49:30.982  === Full refresh start ===
+2025-09-16 22:51:04.148  Fetched rows: 6736 | Columns: 6736
+2025-09-16 22:51:04.174  Truncating target: dbo.[Denial]
+2025-09-16 22:51:04.709  Bulk copying directly to target...
+2025-09-16 22:51:05.290  === Full refresh done ===
+2025-09-16 23:19:31.087  === Full refresh start ===
+2025-09-16 23:20:49.744  Fetched rows: 6736 | Columns: 6736
+2025-09-16 23:20:49.765  Truncating target: dbo.[Denial]
+2025-09-16 23:20:50.179  Bulk copying directly to target...
+2025-09-16 23:20:50.825  === Full refresh done ===
+2025-09-16 23:49:31.106  === Full refresh start ===
+2025-09-16 23:50:46.223  Fetched rows: 6736 | Columns: 6736
+2025-09-16 23:50:46.262  Truncating target: dbo.[Denial]
+2025-09-16 23:50:46.724  Bulk copying directly to target...
+2025-09-16 23:50:47.330  === Full refresh done ===
+2025-09-17 00:19:31.513  === Full refresh start ===
+2025-09-17 00:20:48.835  Fetched rows: 6736 | Columns: 6736
+2025-09-17 00:20:48.873  Truncating target: dbo.[Denial]
+2025-09-17 00:20:49.322  Bulk copying directly to target...
+2025-09-17 00:20:49.786  === Full refresh done ===
+2025-09-17 00:49:30.989  === Full refresh start ===
+2025-09-17 00:50:46.002  Fetched rows: 6736 | Columns: 6736
+2025-09-17 00:50:46.049  Truncating target: dbo.[Denial]
+2025-09-17 00:50:46.470  Bulk copying directly to target...
+2025-09-17 00:50:46.937  === Full refresh done ===
+2025-09-17 01:19:31.310  === Full refresh start ===
+2025-09-17 01:20:45.379  Fetched rows: 6736 | Columns: 6736
+2025-09-17 01:20:45.421  Truncating target: dbo.[Denial]
+2025-09-17 01:20:45.868  Bulk copying directly to target...
+2025-09-17 01:20:46.361  === Full refresh done ===
+2025-09-17 01:49:31.103  === Full refresh start ===
+2025-09-17 01:50:44.787  Fetched rows: 6736 | Columns: 6736
+2025-09-17 01:50:44.828  Truncating target: dbo.[Denial]
+2025-09-17 01:50:45.232  Bulk copying directly to target...
+2025-09-17 01:50:45.932  === Full refresh done ===
+2025-09-17 02:19:31.052  === Full refresh start ===
+2025-09-17 02:20:43.080  Fetched rows: 6736 | Columns: 6736
+2025-09-17 02:20:43.101  Truncating target: dbo.[Denial]
+2025-09-17 02:20:43.526  Bulk copying directly to target...
+2025-09-17 02:20:44.257  === Full refresh done ===
+2025-09-17 02:49:31.035  === Full refresh start ===
+2025-09-17 02:50:46.209  Fetched rows: 6736 | Columns: 6736
+2025-09-17 02:50:46.231  Truncating target: dbo.[Denial]
+2025-09-17 02:50:46.629  Bulk copying directly to target...
+2025-09-17 02:50:47.104  === Full refresh done ===
+2025-09-17 03:19:31.035  === Full refresh start ===
+2025-09-17 03:20:42.936  Fetched rows: 6736 | Columns: 6736
+2025-09-17 03:20:42.964  Truncating target: dbo.[Denial]
+2025-09-17 03:20:43.384  Bulk copying directly to target...
+2025-09-17 03:20:43.958  === Full refresh done ===
+2025-09-17 03:49:31.002  === Full refresh start ===
+2025-09-17 03:50:44.545  Fetched rows: 6736 | Columns: 6736
+2025-09-17 03:50:44.578  Truncating target: dbo.[Denial]
+2025-09-17 03:50:44.948  Bulk copying directly to target...
+2025-09-17 03:50:45.414  === Full refresh done ===
+2025-09-17 04:19:30.988  === Full refresh start ===
+2025-09-17 04:20:47.396  Fetched rows: 6736 | Columns: 6736
+2025-09-17 04:20:47.423  Truncating target: dbo.[Denial]
+2025-09-17 04:20:47.873  Bulk copying directly to target...
+2025-09-17 04:20:48.345  === Full refresh done ===
+2025-09-17 04:49:31.099  === Full refresh start ===
+2025-09-17 04:50:48.532  Fetched rows: 6736 | Columns: 6736
+2025-09-17 04:50:48.553  Truncating target: dbo.[Denial]
+2025-09-17 04:50:48.980  Bulk copying directly to target...
+2025-09-17 04:50:50.459  === Full refresh done ===
+2025-09-17 05:19:31.005  === Full refresh start ===
+2025-09-17 05:20:47.112  Fetched rows: 6736 | Columns: 6736
+2025-09-17 05:20:47.130  Truncating target: dbo.[Denial]
+2025-09-17 05:20:47.583  Bulk copying directly to target...
+2025-09-17 05:20:48.187  === Full refresh done ===
+2025-09-17 05:49:31.163  === Full refresh start ===
+2025-09-17 05:50:44.110  Fetched rows: 6736 | Columns: 6736
+2025-09-17 05:50:44.131  Truncating target: dbo.[Denial]
+2025-09-17 05:50:44.563  Bulk copying directly to target...
+2025-09-17 05:50:45.112  === Full refresh done ===
+2025-09-17 06:19:30.995  === Full refresh start ===
+2025-09-17 06:20:45.431  Fetched rows: 6736 | Columns: 6736
+2025-09-17 06:20:45.452  Truncating target: dbo.[Denial]
+2025-09-17 06:20:45.870  Bulk copying directly to target...
+2025-09-17 06:20:46.505  === Full refresh done ===
+2025-09-17 06:49:31.096  === Full refresh start ===
+2025-09-17 06:50:47.287  Fetched rows: 6736 | Columns: 6736
+2025-09-17 06:50:47.302  Truncating target: dbo.[Denial]
+2025-09-17 06:50:47.744  Bulk copying directly to target...
+2025-09-17 06:50:48.197  === Full refresh done ===
+2025-09-17 07:19:30.993  === Full refresh start ===
+2025-09-17 07:20:43.787  Fetched rows: 6736 | Columns: 6736
+2025-09-17 07:20:43.814  Truncating target: dbo.[Denial]
+2025-09-17 07:20:44.251  Bulk copying directly to target...
+2025-09-17 07:20:44.746  === Full refresh done ===
+2025-09-17 07:49:30.928  === Full refresh start ===
+2025-09-17 07:50:44.380  Fetched rows: 6736 | Columns: 6736
+2025-09-17 07:50:44.402  Truncating target: dbo.[Denial]
+2025-09-17 07:50:44.814  Bulk copying directly to target...
+2025-09-17 07:50:45.285  === Full refresh done ===
+2025-09-17 08:19:31.242  === Full refresh start ===
+2025-09-17 08:20:44.133  Fetched rows: 6736 | Columns: 6736
+2025-09-17 08:20:44.207  Truncating target: dbo.[Denial]
+2025-09-17 08:20:44.655  Bulk copying directly to target...
+2025-09-17 08:20:45.375  === Full refresh done ===
+2025-09-17 08:49:31.400  === Full refresh start ===
+2025-09-17 08:50:43.100  Fetched rows: 6736 | Columns: 6736
+2025-09-17 08:50:43.117  Truncating target: dbo.[Denial]
+2025-09-17 08:50:43.554  Bulk copying directly to target...
+2025-09-17 08:50:44.242  === Full refresh done ===
+2025-09-17 09:44:11.664  === Full refresh start ===
+2025-09-17 09:45:22.286  First 10 source cols: 
+2025-09-17 09:45:22.294  Error: Exception calling "Fill" with "1" argument(s): "A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)"
+2025-09-17 09:49:31.060  === Full refresh start ===
+2025-09-17 09:50:43.862  Fetched rows: 6736 | Columns: 6736
+2025-09-17 09:50:43.927  Truncating target: dbo.[Denial]
+2025-09-17 09:50:44.364  Bulk copying directly to target...
+2025-09-17 09:50:45.080  === Full refresh done ===
+2025-09-17 10:19:31.283  === Full refresh start ===
+2025-09-17 10:20:44.925  Fetched rows: 6736 | Columns: 6736
+2025-09-17 10:20:44.957  Truncating target: dbo.[Denial]
+2025-09-17 10:20:45.383  Bulk copying directly to target...
+2025-09-17 10:20:45.863  === Full refresh done ===
+2025-09-17 10:49:31.359  === Full refresh start ===
+2025-09-17 10:50:49.297  Fetched rows: 6736 | Columns: 6736
+2025-09-17 10:50:49.329  Truncating target: dbo.[Denial]
+2025-09-17 10:50:49.699  Bulk copying directly to target...
+2025-09-17 10:50:50.173  === Full refresh done ===
+2025-09-17 11:19:31.295  === Full refresh start ===
+2025-09-17 11:20:45.039  Fetched rows: 6736 | Columns: 6736
+2025-09-17 11:20:45.060  Truncating target: dbo.[Denial]
+2025-09-17 11:20:45.490  Bulk copying directly to target...
+2025-09-17 11:20:45.946  === Full refresh done ===
+2025-09-17 11:49:31.389  === Full refresh start ===
+2025-09-17 11:50:49.519  Fetched rows: 6736 | Columns: 6736
+2025-09-17 11:50:49.592  Truncating target: dbo.[Denial]
+2025-09-17 11:50:49.997  Bulk copying directly to target...
+2025-09-17 11:50:50.743  === Full refresh done ===
+2025-09-17 12:19:31.260  === Full refresh start ===
+2025-09-17 12:20:45.685  Fetched rows: 6736 | Columns: 6736
+2025-09-17 12:20:45.721  Truncating target: dbo.[Denial]
+2025-09-17 12:20:46.134  Bulk copying directly to target...
+2025-09-17 12:20:46.611  === Full refresh done ===
+2025-09-17 12:49:30.974  === Full refresh start ===
+2025-09-17 12:50:45.365  Fetched rows: 6736 | Columns: 6736
+2025-09-17 12:50:45.397  Truncating target: dbo.[Denial]
+2025-09-17 12:50:45.809  Bulk copying directly to target...
+2025-09-17 12:50:46.476  === Full refresh done ===
+2025-09-17 13:19:30.987  === Full refresh start ===
+2025-09-17 13:20:46.490  Fetched rows: 6736 | Columns: 6736
+2025-09-17 13:20:46.514  Truncating target: dbo.[Denial]
+2025-09-17 13:20:46.930  Bulk copying directly to target...
+2025-09-17 13:20:47.384  === Full refresh done ===
+2025-09-17 13:49:31.319  === Full refresh start ===
+2025-09-17 13:50:45.981  Fetched rows: 6736 | Columns: 6736
+2025-09-17 13:50:46.001  Truncating target: dbo.[Denial]
+2025-09-17 13:50:46.359  Bulk copying directly to target...
+2025-09-17 13:50:47.000  === Full refresh done ===
+2025-09-17 14:07:05.793  === Full refresh start ===
+2025-09-17 14:07:06.227  First 10 source cols: 
+2025-09-17 14:07:06.233  Error: Exception calling "Fill" with "1" argument(s): "Ambiguous column name 'Policy Expiration Date'.
+Ambiguous column name 'Policy Expiration Date'."
+2025-09-17 14:19:31.271  === Full refresh start ===
+2025-09-17 14:19:31.654  First 10 source cols: 
+2025-09-17 14:19:31.654  Error: Exception calling "Fill" with "1" argument(s): "Ambiguous column name 'Policy Expiration Date'.
+Ambiguous column name 'Policy Expiration Date'."
+2025-09-17 14:43:18.173  === Full refresh start ===
+2025-09-17 14:44:52.688  Fetched rows: 6736 | Columns: 6736
+2025-09-17 14:44:52.714  Truncating target: dbo.[Denial]
+2025-09-17 14:44:53.121  Bulk copying directly to target...
+2025-09-17 14:44:53.735  === Full refresh done ===
+2025-09-17 14:49:31.386  === Full refresh start ===
+2025-09-17 14:51:07.773  Fetched rows: 6736 | Columns: 6736
+2025-09-17 14:51:07.786  Truncating target: dbo.[Denial]
+2025-09-17 14:51:08.216  Bulk copying directly to target...
+2025-09-17 14:51:08.694  === Full refresh done ===
+2025-09-17 15:09:43.300  === Full refresh start ===
+2025-09-17 15:11:19.064  Fetched rows: 6736 | Columns: 6736
+2025-09-17 15:11:19.086  Truncating target: dbo.[Denial]
+2025-09-17 15:11:19.508  Bulk copying directly to target...
+2025-09-17 15:11:20.178  === Full refresh done ===
+2025-09-17 15:19:31.360  === Full refresh start ===
+2025-09-17 15:21:05.759  Fetched rows: 6736 | Columns: 6736
+2025-09-17 15:21:05.807  Truncating target: dbo.[Denial]
+2025-09-17 15:21:06.259  Bulk copying directly to target...
+2025-09-17 15:21:06.873  === Full refresh done ===
+2025-09-17 15:49:31.535  === Full refresh start ===
+2025-09-17 15:51:08.554  Fetched rows: 6736 | Columns: 6736
+2025-09-17 15:51:08.575  Truncating target: dbo.[Denial]
+2025-09-17 15:51:08.978  Bulk copying directly to target...
+2025-09-17 15:51:09.434  === Full refresh done ===
+2025-09-17 16:13:53.410  === Full refresh start ===
+2025-09-17 16:13:53.819  First 10 source cols: 
+2025-09-17 16:13:53.825  Error: Exception calling "Fill" with "1" argument(s): "Incorrect syntax near ','.
+Incorrect syntax near the keyword 'LEFT'.
+Incorrect syntax near the keyword 'AS'."
+2025-09-17 16:15:32.261  === Full refresh start ===
+2025-09-17 16:17:08.666  Fetched rows: 6736 | Columns: 6736
+2025-09-17 16:17:08.691  Truncating target: dbo.[Denial]
+2025-09-17 16:17:09.133  Bulk copying directly to target...
+2025-09-17 16:17:09.856  === Full refresh done ===
+2025-09-17 16:19:31.348  === Full refresh start ===
+2025-09-17 16:21:07.322  Fetched rows: 6736 | Columns: 6736
+2025-09-17 16:21:07.372  Truncating target: dbo.[Denial]
+2025-09-17 16:21:07.738  Bulk copying directly to target...
+2025-09-17 16:21:08.441  === Full refresh done ===
+2025-09-17 20:52:14.400  === Full refresh start ===
+2025-09-17 20:52:31.335  First 10 source cols: 
+2025-09-17 20:52:31.335  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-18 12:59:02.118  === Full refresh start ===
+2025-09-18 13:00:54.483  Fetched rows: 6759 | Columns: 6759
+2025-09-18 13:00:54.560  Truncating target: dbo.[Denial]
+2025-09-18 13:00:54.934  Bulk copying directly to target...
+2025-09-18 13:00:55.493  === Full refresh done ===
+2025-09-18 13:19:31.348  === Full refresh start ===
+2025-09-18 13:21:06.962  Fetched rows: 6759 | Columns: 6759
+2025-09-18 13:21:06.991  Truncating target: dbo.[Denial]
+2025-09-18 13:21:07.372  Bulk copying directly to target...
+2025-09-18 13:21:07.862  === Full refresh done ===
+2025-09-18 13:49:31.234  === Full refresh start ===
+2025-09-18 13:51:10.980  Fetched rows: 6759 | Columns: 6759
+2025-09-18 13:51:11.043  Truncating target: dbo.[Denial]
+2025-09-18 13:51:11.429  Bulk copying directly to target...
+2025-09-18 13:51:11.990  === Full refresh done ===
+2025-09-18 14:19:31.396  === Full refresh start ===
+2025-09-18 14:21:09.002  Fetched rows: 6759 | Columns: 6759
+2025-09-18 14:21:09.085  Truncating target: dbo.[Denial]
+2025-09-18 14:21:09.553  Bulk copying directly to target...
+2025-09-18 14:21:10.208  === Full refresh done ===
+2025-09-18 14:49:31.356  === Full refresh start ===
+2025-09-18 14:51:10.089  Fetched rows: 6759 | Columns: 6759
+2025-09-18 14:51:10.125  Truncating target: dbo.[Denial]
+2025-09-18 14:51:10.558  Bulk copying directly to target...
+2025-09-18 14:51:11.309  === Full refresh done ===
+2025-09-18 15:19:31.211  === Full refresh start ===
+2025-09-18 15:21:11.774  Fetched rows: 6759 | Columns: 6759
+2025-09-18 15:21:11.870  Truncating target: dbo.[Denial]
+2025-09-18 15:21:12.329  Bulk copying directly to target...
+2025-09-18 15:21:12.883  === Full refresh done ===
+2025-09-18 15:49:31.607  === Full refresh start ===
+2025-09-18 15:51:08.659  Fetched rows: 6759 | Columns: 6759
+2025-09-18 15:51:08.727  Truncating target: dbo.[Denial]
+2025-09-18 15:51:09.179  Bulk copying directly to target...
+2025-09-18 15:51:09.799  === Full refresh done ===
+2025-09-18 16:19:31.317  === Full refresh start ===
+2025-09-18 16:21:08.004  Fetched rows: 6759 | Columns: 6759
+2025-09-18 16:21:08.020  Truncating target: dbo.[Denial]
+2025-09-18 16:21:08.475  Bulk copying directly to target...
+2025-09-18 16:21:08.952  === Full refresh done ===
+2025-09-18 16:49:31.330  === Full refresh start ===
+2025-09-18 16:51:05.842  Fetched rows: 6759 | Columns: 6759
+2025-09-18 16:51:05.889  Truncating target: dbo.[Denial]
+2025-09-18 16:51:06.250  Bulk copying directly to target...
+2025-09-18 16:51:06.765  === Full refresh done ===
+2025-09-18 20:52:22.505  === Full refresh start ===
+2025-09-18 20:52:38.382  First 10 source cols: 
+2025-09-18 20:52:38.393  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-19 08:20:39.746  === Full refresh start ===
+2025-09-19 08:22:31.635  Fetched rows: 6783 | Columns: 6783
+2025-09-19 08:22:31.681  Truncating target: dbo.[Denial]
+2025-09-19 08:22:32.084  Bulk copying directly to target...
+2025-09-19 08:22:32.702  === Full refresh done ===
+2025-09-19 09:28:37.815  === Full refresh start ===
+2025-09-19 09:30:14.942  Fetched rows: 6783 | Columns: 6783
+2025-09-19 09:30:14.973  Truncating target: dbo.[Denial]
+2025-09-19 09:30:15.342  Bulk copying directly to target...
+2025-09-19 09:30:15.830  === Full refresh done ===
+2025-09-19 09:49:31.235  === Full refresh start ===
+2025-09-19 09:51:04.537  Fetched rows: 6783 | Columns: 6783
+2025-09-19 09:51:04.569  Truncating target: dbo.[Denial]
+2025-09-19 09:51:05.034  Bulk copying directly to target...
+2025-09-19 09:51:05.605  === Full refresh done ===
+2025-09-19 10:19:31.535  === Full refresh start ===
+2025-09-19 10:21:06.805  Fetched rows: 6783 | Columns: 6783
+2025-09-19 10:21:06.855  Truncating target: dbo.[Denial]
+2025-09-19 10:21:07.273  Bulk copying directly to target...
+2025-09-19 10:21:07.771  === Full refresh done ===
+2025-09-19 10:49:31.329  === Full refresh start ===
+2025-09-19 10:51:05.579  Fetched rows: 6783 | Columns: 6783
+2025-09-19 10:51:05.655  Truncating target: dbo.[Denial]
+2025-09-19 10:51:06.188  Bulk copying directly to target...
+2025-09-19 10:51:06.859  === Full refresh done ===
+2025-09-19 11:19:31.371  === Full refresh start ===
+2025-09-19 11:21:10.774  Fetched rows: 6783 | Columns: 6783
+2025-09-19 11:21:10.815  Truncating target: dbo.[Denial]
+2025-09-19 11:21:11.172  Bulk copying directly to target...
+2025-09-19 11:21:11.648  === Full refresh done ===
+2025-09-19 11:49:31.456  === Full refresh start ===
+2025-09-19 11:51:05.790  Fetched rows: 6783 | Columns: 6783
+2025-09-19 11:51:05.826  Truncating target: dbo.[Denial]
+2025-09-19 11:51:06.265  Bulk copying directly to target...
+2025-09-19 11:51:06.853  === Full refresh done ===
+2025-09-19 12:19:31.474  === Full refresh start ===
+2025-09-19 12:21:04.953  Fetched rows: 6783 | Columns: 6783
+2025-09-19 12:21:04.979  Truncating target: dbo.[Denial]
+2025-09-19 12:21:05.412  Bulk copying directly to target...
+2025-09-19 12:21:05.899  === Full refresh done ===
+2025-09-19 20:51:30.948  === Full refresh start ===
+2025-09-19 20:51:52.239  First 10 source cols: 
+2025-09-19 20:51:52.251  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-20 20:51:28.850  === Full refresh start ===
+2025-09-20 20:51:47.489  First 10 source cols: 
+2025-09-20 20:51:47.841  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-21 01:04:02.111  === Full refresh start ===
+2025-09-21 01:04:17.407  First 10 source cols: 
+2025-09-21 01:04:17.407  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-22 08:49:34.350  === Full refresh start ===
+2025-09-22 08:51:08.973  Fetched rows: 6805 | Columns: 6805
+2025-09-22 08:51:09.004  Truncating target: dbo.[Denial]
+2025-09-22 08:51:09.477  Bulk copying directly to target...
+2025-09-22 08:51:10.239  === Full refresh done ===
+2025-09-22 09:19:31.252  === Full refresh start ===
+2025-09-22 09:21:05.083  Fetched rows: 6805 | Columns: 6805
+2025-09-22 09:21:05.113  Truncating target: dbo.[Denial]
+2025-09-22 09:21:05.539  Bulk copying directly to target...
+2025-09-22 09:21:06.028  === Full refresh done ===
+2025-09-22 09:49:31.513  === Full refresh start ===
+2025-09-22 09:51:06.628  Fetched rows: 6805 | Columns: 6805
+2025-09-22 09:51:06.676  Truncating target: dbo.[Denial]
+2025-09-22 09:51:07.041  Bulk copying directly to target...
+2025-09-22 09:51:07.724  === Full refresh done ===
+2025-09-22 10:19:31.249  === Full refresh start ===
+2025-09-22 10:21:05.695  Fetched rows: 6805 | Columns: 6805
+2025-09-22 10:21:05.729  Truncating target: dbo.[Denial]
+2025-09-22 10:21:06.172  Bulk copying directly to target...
+2025-09-22 10:21:06.917  === Full refresh done ===
+2025-09-22 10:49:31.186  === Full refresh start ===
+2025-09-22 10:51:05.338  Fetched rows: 6805 | Columns: 6805
+2025-09-22 10:51:05.402  Truncating target: dbo.[Denial]
+2025-09-22 10:51:05.815  Bulk copying directly to target...
+2025-09-22 10:51:06.372  === Full refresh done ===
+2025-09-22 11:19:30.952  === Full refresh start ===
+2025-09-22 11:21:04.495  Fetched rows: 6805 | Columns: 6805
+2025-09-22 11:21:04.527  Truncating target: dbo.[Denial]
+2025-09-22 11:21:04.954  Bulk copying directly to target...
+2025-09-22 11:21:05.510  === Full refresh done ===
+2025-09-22 11:49:30.997  === Full refresh start ===
+2025-09-22 11:51:07.285  Fetched rows: 6805 | Columns: 6805
+2025-09-22 11:51:07.309  Truncating target: dbo.[Denial]
+2025-09-22 11:51:07.690  Bulk copying directly to target...
+2025-09-22 11:51:08.189  === Full refresh done ===
+2025-09-22 12:19:30.963  === Full refresh start ===
+2025-09-22 12:21:05.089  Fetched rows: 6805 | Columns: 6805
+2025-09-22 12:21:05.105  Truncating target: dbo.[Denial]
+2025-09-22 12:21:05.573  Bulk copying directly to target...
+2025-09-22 12:21:06.248  === Full refresh done ===
+2025-09-22 12:49:30.952  === Full refresh start ===
+2025-09-22 12:51:06.064  Fetched rows: 6805 | Columns: 6805
+2025-09-22 12:51:06.089  Truncating target: dbo.[Denial]
+2025-09-22 12:51:06.492  Bulk copying directly to target...
+2025-09-22 12:51:07.106  === Full refresh done ===
+2025-09-22 13:19:30.985  === Full refresh start ===
+2025-09-22 13:21:07.381  Fetched rows: 6805 | Columns: 6805
+2025-09-22 13:21:07.413  Truncating target: dbo.[Denial]
+2025-09-22 13:21:07.828  Bulk copying directly to target...
+2025-09-22 13:21:08.420  === Full refresh done ===
+2025-09-22 13:49:31.365  === Full refresh start ===
+2025-09-22 13:51:07.042  Fetched rows: 6805 | Columns: 6805
+2025-09-22 13:51:07.105  Truncating target: dbo.[Denial]
+2025-09-22 13:51:07.538  Bulk copying directly to target...
+2025-09-22 13:51:08.067  === Full refresh done ===
+2025-09-22 14:19:31.472  === Full refresh start ===
+2025-09-22 14:21:06.657  Fetched rows: 6805 | Columns: 6805
+2025-09-22 14:21:06.681  Truncating target: dbo.[Denial]
+2025-09-22 14:21:07.073  Bulk copying directly to target...
+2025-09-22 14:21:07.557  === Full refresh done ===
+2025-09-22 14:49:31.247  === Full refresh start ===
+2025-09-22 14:51:07.153  Fetched rows: 6805 | Columns: 6805
+2025-09-22 14:51:07.216  Truncating target: dbo.[Denial]
+2025-09-22 14:51:07.632  Bulk copying directly to target...
+2025-09-22 14:51:08.125  === Full refresh done ===
+2025-09-22 15:19:31.261  === Full refresh start ===
+2025-09-22 15:21:06.037  Fetched rows: 6805 | Columns: 6805
+2025-09-22 15:21:06.062  Truncating target: dbo.[Denial]
+2025-09-22 15:21:06.469  Bulk copying directly to target...
+2025-09-22 15:21:07.001  === Full refresh done ===
+2025-09-22 15:49:30.957  === Full refresh start ===
+2025-09-22 15:51:04.053  Fetched rows: 6805 | Columns: 6805
+2025-09-22 15:51:04.139  Truncating target: dbo.[Denial]
+2025-09-22 15:51:04.566  Bulk copying directly to target...
+2025-09-22 15:51:05.174  === Full refresh done ===
+2025-09-22 16:19:31.224  === Full refresh start ===
+2025-09-22 16:21:06.395  Fetched rows: 6805 | Columns: 6805
+2025-09-22 16:21:06.421  Truncating target: dbo.[Denial]
+2025-09-22 16:21:06.772  Bulk copying directly to target...
+2025-09-22 16:21:07.261  === Full refresh done ===
+2025-09-22 16:41:32.971  === Full refresh start ===
+2025-09-22 16:42:53.292  Fetched rows: 6805 | Columns: 6805
+2025-09-22 16:42:53.325  Truncating target: dbo.[Denial]
+2025-09-22 16:42:53.739  Bulk copying directly to target...
+2025-09-22 16:42:54.433  === Full refresh done ===
+2025-09-22 20:36:39.628  === Full refresh start ===
+2025-09-22 20:36:58.666  First 10 source cols: 
+2025-09-22 20:36:58.700  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-23 08:20:52.321  === Full refresh start ===
+2025-09-23 08:21:08.103  First 10 source cols: 
+2025-09-23 08:21:08.114  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-23 08:49:31.449  === Full refresh start ===
+2025-09-23 08:50:49.640  Fetched rows: 6821 | Columns: 6821
+2025-09-23 08:50:49.719  Truncating target: dbo.[Denial]
+2025-09-23 08:50:50.197  Bulk copying directly to target...
+2025-09-23 08:50:50.749  === Full refresh done ===
+2025-09-23 09:19:31.276  === Full refresh start ===
+2025-09-23 09:20:50.193  Fetched rows: 6821 | Columns: 6821
+2025-09-23 09:20:50.261  Truncating target: dbo.[Denial]
+2025-09-23 09:20:50.645  Bulk copying directly to target...
+2025-09-23 09:20:51.130  === Full refresh done ===
+2025-09-23 09:49:31.163  === Full refresh start ===
+2025-09-23 09:50:54.269  Fetched rows: 6821 | Columns: 6821
+2025-09-23 09:50:54.301  Truncating target: dbo.[Denial]
+2025-09-23 09:50:54.734  Bulk copying directly to target...
+2025-09-23 09:50:55.211  === Full refresh done ===
+2025-09-23 10:19:31.258  === Full refresh start ===
+2025-09-23 10:20:52.733  Fetched rows: 6821 | Columns: 6821
+2025-09-23 10:20:52.779  Truncating target: dbo.[Denial]
+2025-09-23 10:20:54.194  Bulk copying directly to target...
+2025-09-23 10:20:54.696  === Full refresh done ===
+2025-09-23 10:49:31.039  === Full refresh start ===
+2025-09-23 10:50:52.602  Fetched rows: 6821 | Columns: 6821
+2025-09-23 10:50:52.673  Truncating target: dbo.[Denial]
+2025-09-23 10:50:53.089  Bulk copying directly to target...
+2025-09-23 10:50:53.710  === Full refresh done ===
+2025-09-23 11:19:30.959  === Full refresh start ===
+2025-09-23 11:20:51.073  Fetched rows: 6821 | Columns: 6821
+2025-09-23 11:20:51.089  Truncating target: dbo.[Denial]
+2025-09-23 11:20:51.449  Bulk copying directly to target...
+2025-09-23 11:20:51.921  === Full refresh done ===
+2025-09-23 11:49:31.316  === Full refresh start ===
+2025-09-23 11:50:50.628  Fetched rows: 6821 | Columns: 6821
+2025-09-23 11:50:50.658  Truncating target: dbo.[Denial]
+2025-09-23 11:50:51.090  Bulk copying directly to target...
+2025-09-23 11:50:51.553  === Full refresh done ===
+2025-09-23 12:19:31.232  === Full refresh start ===
+2025-09-23 12:20:54.132  Fetched rows: 6821 | Columns: 6821
+2025-09-23 12:20:54.171  Truncating target: dbo.[Denial]
+2025-09-23 12:20:54.753  Bulk copying directly to target...
+2025-09-23 12:20:55.228  === Full refresh done ===
+2025-09-23 12:49:31.018  === Full refresh start ===
+2025-09-23 12:50:52.407  Fetched rows: 6821 | Columns: 6821
+2025-09-23 12:50:52.421  Truncating target: dbo.[Denial]
+2025-09-23 12:50:52.804  Bulk copying directly to target...
+2025-09-23 12:50:53.283  === Full refresh done ===
+2025-09-23 13:19:31.871  === Full refresh start ===
+2025-09-23 13:20:55.225  Fetched rows: 6821 | Columns: 6821
+2025-09-23 13:20:55.265  Truncating target: dbo.[Denial]
+2025-09-23 13:20:55.712  Bulk copying directly to target...
+2025-09-23 13:20:56.214  === Full refresh done ===
+2025-09-23 13:49:31.310  === Full refresh start ===
+2025-09-23 13:50:52.245  Fetched rows: 6821 | Columns: 6821
+2025-09-23 13:50:52.300  Truncating target: dbo.[Denial]
+2025-09-23 13:50:52.717  Bulk copying directly to target...
+2025-09-23 13:50:53.197  === Full refresh done ===
+2025-09-23 14:19:31.507  === Full refresh start ===
+2025-09-23 14:20:52.571  Fetched rows: 6821 | Columns: 6821
+2025-09-23 14:20:52.598  Truncating target: dbo.[Denial]
+2025-09-23 14:20:53.063  Bulk copying directly to target...
+2025-09-23 14:20:53.568  === Full refresh done ===
+2025-09-23 14:49:30.903  === Full refresh start ===
+2025-09-23 14:50:51.227  Fetched rows: 6821 | Columns: 6821
+2025-09-23 14:50:51.249  Truncating target: dbo.[Denial]
+2025-09-23 14:50:51.650  Bulk copying directly to target...
+2025-09-23 14:50:52.110  === Full refresh done ===
+2025-09-23 15:19:31.485  === Full refresh start ===
+2025-09-23 15:20:52.815  Fetched rows: 6821 | Columns: 6821
+2025-09-23 15:20:52.842  Truncating target: dbo.[Denial]
+2025-09-23 15:20:53.271  Bulk copying directly to target...
+2025-09-23 15:20:53.732  === Full refresh done ===
+2025-09-23 15:49:31.292  === Full refresh start ===
+2025-09-23 15:50:53.755  Fetched rows: 6821 | Columns: 6821
+2025-09-23 15:50:53.775  Truncating target: dbo.[Denial]
+2025-09-23 15:50:54.139  Bulk copying directly to target...
+2025-09-23 15:50:54.614  === Full refresh done ===
+2025-09-23 16:19:31.500  === Full refresh start ===
+2025-09-23 16:20:54.083  Fetched rows: 6821 | Columns: 6821
+2025-09-23 16:20:54.108  Truncating target: dbo.[Denial]
+2025-09-23 16:20:54.495  Bulk copying directly to target...
+2025-09-23 16:20:55.086  === Full refresh done ===
+2025-09-23 16:49:31.394  === Full refresh start ===
+2025-09-23 16:50:55.535  Fetched rows: 6821 | Columns: 6821
+2025-09-23 16:50:55.556  Truncating target: dbo.[Denial]
+2025-09-23 16:50:55.971  Bulk copying directly to target...
+2025-09-23 16:50:56.461  === Full refresh done ===
+2025-09-23 20:36:38.880  === Full refresh start ===
+2025-09-23 20:36:54.827  First 10 source cols: 
+2025-09-23 20:36:54.827  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-24 08:05:19.753  === Full refresh start ===
+2025-09-24 08:05:36.586  First 10 source cols: 
+2025-09-24 08:05:36.616  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-24 08:19:32.381  === Full refresh start ===
+2025-09-24 08:24:38.090  Fetched rows: 6844 | Columns: 6844
+2025-09-24 08:24:38.193  Truncating target: dbo.[Denial]
+2025-09-24 08:24:38.839  Bulk copying directly to target...
+2025-09-24 08:24:39.727  === Full refresh done ===
+2025-09-24 08:49:31.428  === Full refresh start ===
+2025-09-24 08:54:31.011  Fetched rows: 6844 | Columns: 6844
+2025-09-24 08:54:31.099  Truncating target: dbo.[Denial]
+2025-09-24 08:54:31.492  Bulk copying directly to target...
+2025-09-24 08:54:32.169  === Full refresh done ===
+2025-09-24 09:19:31.247  === Full refresh start ===
+2025-09-24 09:24:32.794  Fetched rows: 6844 | Columns: 6844
+2025-09-24 09:24:32.814  Truncating target: dbo.[Denial]
+2025-09-24 09:24:33.176  Bulk copying directly to target...
+2025-09-24 09:24:33.734  === Full refresh done ===
+2025-09-24 09:49:31.561  === Full refresh start ===
+2025-09-24 09:54:39.919  Fetched rows: 6844 | Columns: 6844
+2025-09-24 09:54:40.011  Truncating target: dbo.[Denial]
+2025-09-24 09:54:40.438  Bulk copying directly to target...
+2025-09-24 09:54:41.090  === Full refresh done ===
+2025-09-24 10:19:31.339  === Full refresh start ===
+2025-09-24 10:24:37.736  Fetched rows: 6844 | Columns: 6844
+2025-09-24 10:24:37.757  Truncating target: dbo.[Denial]
+2025-09-24 10:24:38.207  Bulk copying directly to target...
+2025-09-24 10:24:38.823  === Full refresh done ===
+2025-09-24 10:49:31.027  === Full refresh start ===
+2025-09-24 10:54:29.466  Fetched rows: 6844 | Columns: 6844
+2025-09-24 10:54:29.544  Truncating target: dbo.[Denial]
+2025-09-24 10:54:29.986  Bulk copying directly to target...
+2025-09-24 10:54:30.499  === Full refresh done ===
+2025-09-24 11:19:31.198  === Full refresh start ===
+2025-09-24 11:24:39.608  Fetched rows: 6844 | Columns: 6844
+2025-09-24 11:24:39.639  Truncating target: dbo.[Denial]
+2025-09-24 11:24:40.074  Bulk copying directly to target...
+2025-09-24 11:24:40.731  === Full refresh done ===
+2025-09-24 11:49:31.678  === Full refresh start ===
+2025-09-24 11:54:47.227  Fetched rows: 6844 | Columns: 6844
+2025-09-24 11:54:47.321  Truncating target: dbo.[Denial]
+2025-09-24 11:54:47.804  Bulk copying directly to target...
+2025-09-24 11:54:48.529  === Full refresh done ===
+2025-09-24 12:19:30.994  === Full refresh start ===
+2025-09-24 12:24:36.592  Fetched rows: 6844 | Columns: 6844
+2025-09-24 12:24:36.613  Truncating target: dbo.[Denial]
+2025-09-24 12:24:36.989  Bulk copying directly to target...
+2025-09-24 12:24:37.461  === Full refresh done ===
+2025-09-24 12:49:31.049  === Full refresh start ===
+2025-09-24 12:54:37.712  Fetched rows: 6844 | Columns: 6844
+2025-09-24 12:54:37.728  Truncating target: dbo.[Denial]
+2025-09-24 12:54:38.097  Bulk copying directly to target...
+2025-09-24 12:54:38.724  === Full refresh done ===
+2025-09-24 13:19:31.568  === Full refresh start ===
+2025-09-24 13:24:32.322  Fetched rows: 6844 | Columns: 6844
+2025-09-24 13:24:32.396  Truncating target: dbo.[Denial]
+2025-09-24 13:24:32.866  Bulk copying directly to target...
+2025-09-24 13:24:33.419  === Full refresh done ===
+2025-09-24 13:49:31.319  === Full refresh start ===
+2025-09-24 13:54:32.758  Fetched rows: 6844 | Columns: 6844
+2025-09-24 13:54:32.788  Truncating target: dbo.[Denial]
+2025-09-24 13:54:33.214  Bulk copying directly to target...
+2025-09-24 13:54:33.806  === Full refresh done ===
+2025-09-24 14:19:31.004  === Full refresh start ===
+2025-09-24 14:24:43.640  Fetched rows: 6844 | Columns: 6844
+2025-09-24 14:24:43.661  Truncating target: dbo.[Denial]
+2025-09-24 14:24:44.055  Bulk copying directly to target...
+2025-09-24 14:24:44.520  === Full refresh done ===
+2025-09-24 14:49:30.955  === Full refresh start ===
+2025-09-24 14:54:34.391  Fetched rows: 6844 | Columns: 6844
+2025-09-24 14:54:34.448  Truncating target: dbo.[Denial]
+2025-09-24 14:54:34.873  Bulk copying directly to target...
+2025-09-24 14:54:35.730  === Full refresh done ===
+2025-09-24 15:19:31.454  === Full refresh start ===
+2025-09-24 15:24:31.381  Fetched rows: 6844 | Columns: 6844
+2025-09-24 15:24:31.417  Truncating target: dbo.[Denial]
+2025-09-24 15:24:31.849  Bulk copying directly to target...
+2025-09-24 15:24:32.520  === Full refresh done ===
+2025-09-24 15:49:31.291  === Full refresh start ===
+2025-09-24 15:54:39.798  Fetched rows: 6844 | Columns: 6844
+2025-09-24 15:54:39.875  Truncating target: dbo.[Denial]
+2025-09-24 15:54:40.304  Bulk copying directly to target...
+2025-09-24 15:54:40.977  === Full refresh done ===
+2025-09-24 16:19:31.010  === Full refresh start ===
+2025-09-24 16:24:40.901  Fetched rows: 6844 | Columns: 6844
+2025-09-24 16:24:40.975  Truncating target: dbo.[Denial]
+2025-09-24 16:24:41.473  Bulk copying directly to target...
+2025-09-24 16:24:42.005  === Full refresh done ===
+2025-09-24 20:36:41.005  === Full refresh start ===
+2025-09-24 20:36:57.798  First 10 source cols: 
+2025-09-24 20:36:57.798  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-25 08:07:50.570  === Full refresh start ===
+2025-09-25 08:08:07.879  First 10 source cols: 
+2025-09-25 08:08:07.934  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-25 08:19:31.592  === Full refresh start ===
+2025-09-25 08:24:44.502  Fetched rows: 6857 | Columns: 6857
+2025-09-25 08:24:44.533  Truncating target: dbo.[Denial]
+2025-09-25 08:24:44.905  Bulk copying directly to target...
+2025-09-25 08:24:45.509  === Full refresh done ===
+2025-09-25 08:49:31.343  === Full refresh start ===
+2025-09-25 08:54:27.624  Fetched rows: 6857 | Columns: 6857
+2025-09-25 08:54:27.686  Truncating target: dbo.[Denial]
+2025-09-25 08:54:28.101  Bulk copying directly to target...
+2025-09-25 08:54:28.853  === Full refresh done ===
+2025-09-25 09:19:31.031  === Full refresh start ===
+2025-09-25 09:24:35.447  Fetched rows: 6857 | Columns: 6857
+2025-09-25 09:24:35.526  Truncating target: dbo.[Denial]
+2025-09-25 09:24:35.998  Bulk copying directly to target...
+2025-09-25 09:24:36.570  === Full refresh done ===
+2025-09-25 09:49:31.499  === Full refresh start ===
+2025-09-25 09:54:46.965  Fetched rows: 6857 | Columns: 6857
+2025-09-25 09:54:46.994  Truncating target: dbo.[Denial]
+2025-09-25 09:54:47.486  Bulk copying directly to target...
+2025-09-25 09:54:47.953  === Full refresh done ===
+2025-09-25 10:19:31.554  === Full refresh start ===
+2025-09-25 10:24:40.511  Fetched rows: 6857 | Columns: 6857
+2025-09-25 10:24:40.540  Truncating target: dbo.[Denial]
+2025-09-25 10:24:41.040  Bulk copying directly to target...
+2025-09-25 10:24:41.531  === Full refresh done ===
+2025-09-25 10:49:31.335  === Full refresh start ===
+2025-09-25 10:54:40.159  Fetched rows: 6857 | Columns: 6857
+2025-09-25 10:54:40.181  Truncating target: dbo.[Denial]
+2025-09-25 10:54:40.560  Bulk copying directly to target...
+2025-09-25 10:54:41.027  === Full refresh done ===
+2025-09-25 11:19:31.976  === Full refresh start ===
+2025-09-25 11:24:37.877  Fetched rows: 6857 | Columns: 6857
+2025-09-25 11:24:37.931  Truncating target: dbo.[Denial]
+2025-09-25 11:24:38.448  Bulk copying directly to target...
+2025-09-25 11:24:39.300  === Full refresh done ===
+2025-09-25 11:49:31.365  === Full refresh start ===
+2025-09-25 11:54:36.633  Fetched rows: 6857 | Columns: 6857
+2025-09-25 11:54:36.658  Truncating target: dbo.[Denial]
+2025-09-25 11:54:37.109  Bulk copying directly to target...
+2025-09-25 11:54:37.785  === Full refresh done ===
+2025-09-25 12:19:31.014  === Full refresh start ===
+2025-09-25 12:24:40.971  Fetched rows: 6857 | Columns: 6857
+2025-09-25 12:24:40.994  Truncating target: dbo.[Denial]
+2025-09-25 12:24:41.424  Bulk copying directly to target...
+2025-09-25 12:24:41.994  === Full refresh done ===
+2025-09-25 12:49:30.957  === Full refresh start ===
+2025-09-25 12:54:35.552  Fetched rows: 6857 | Columns: 6857
+2025-09-25 12:54:35.573  Truncating target: dbo.[Denial]
+2025-09-25 12:54:35.971  Bulk copying directly to target...
+2025-09-25 12:54:36.440  === Full refresh done ===
+2025-09-25 13:19:31.330  === Full refresh start ===
+2025-09-25 13:24:40.187  Fetched rows: 6857 | Columns: 6857
+2025-09-25 13:24:40.276  Truncating target: dbo.[Denial]
+2025-09-25 13:24:40.709  Bulk copying directly to target...
+2025-09-25 13:24:41.270  === Full refresh done ===
+2025-09-25 13:49:31.547  === Full refresh start ===
+2025-09-25 13:54:36.601  Fetched rows: 6857 | Columns: 6857
+2025-09-25 13:54:36.617  Truncating target: dbo.[Denial]
+2025-09-25 13:54:37.018  Bulk copying directly to target...
+2025-09-25 13:54:37.496  === Full refresh done ===
+2025-09-25 14:19:30.982  === Full refresh start ===
+2025-09-25 14:24:30.893  Fetched rows: 6857 | Columns: 6857
+2025-09-25 14:24:30.925  Truncating target: dbo.[Denial]
+2025-09-25 14:24:31.341  Bulk copying directly to target...
+2025-09-25 14:24:32.028  === Full refresh done ===
+2025-09-25 14:49:31.287  === Full refresh start ===
+2025-09-25 14:54:30.911  Fetched rows: 6857 | Columns: 6857
+2025-09-25 14:54:30.978  Truncating target: dbo.[Denial]
+2025-09-25 14:54:31.355  Bulk copying directly to target...
+2025-09-25 14:54:32.070  === Full refresh done ===
+2025-09-25 15:19:31.783  === Full refresh start ===
+2025-09-25 15:24:34.388  Fetched rows: 6857 | Columns: 6857
+2025-09-25 15:24:34.415  Truncating target: dbo.[Denial]
+2025-09-25 15:24:34.841  Bulk copying directly to target...
+2025-09-25 15:24:35.319  === Full refresh done ===
+2025-09-25 15:49:31.429  === Full refresh start ===
+2025-09-25 15:54:29.064  Fetched rows: 6857 | Columns: 6857
+2025-09-25 15:54:29.096  Truncating target: dbo.[Denial]
+2025-09-25 15:54:29.525  Bulk copying directly to target...
+2025-09-25 15:54:30.124  === Full refresh done ===
+2025-09-25 16:19:31.632  === Full refresh start ===
+2025-09-25 16:24:36.319  Fetched rows: 6857 | Columns: 6857
+2025-09-25 16:24:36.366  Truncating target: dbo.[Denial]
+2025-09-25 16:24:36.767  Bulk copying directly to target...
+2025-09-25 16:24:37.235  === Full refresh done ===
+2025-09-25 20:36:55.763  === Full refresh start ===
+2025-09-25 20:42:15.692  Fetched rows: 6857 | Columns: 6857
+2025-09-25 20:42:15.707  Truncating target: dbo.[Denial]
+2025-09-25 20:42:16.246  Bulk copying directly to target...
+2025-09-25 20:42:16.785  === Full refresh done ===
+2025-09-26 08:10:05.355  === Full refresh start ===
+2025-09-26 08:10:21.763  First 10 source cols: 
+2025-09-26 08:10:21.782  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-26 08:19:31.771  === Full refresh start ===
+2025-09-26 08:24:36.960  Fetched rows: 6882 | Columns: 6882
+2025-09-26 08:24:37.044  Truncating target: dbo.[Denial]
+2025-09-26 08:24:37.572  Bulk copying directly to target...
+2025-09-26 08:24:38.354  === Full refresh done ===
+2025-09-26 08:49:31.610  === Full refresh start ===
+2025-09-26 08:54:36.677  Fetched rows: 6882 | Columns: 6882
+2025-09-26 08:54:36.726  Truncating target: dbo.[Denial]
+2025-09-26 08:54:37.175  Bulk copying directly to target...
+2025-09-26 08:54:37.920  === Full refresh done ===
+2025-09-26 09:19:30.355  === Full refresh start ===
+2025-09-26 09:24:42.550  Fetched rows: 6882 | Columns: 6882
+2025-09-26 09:24:42.645  Truncating target: dbo.[Denial]
+2025-09-26 09:24:43.084  Bulk copying directly to target...
+2025-09-26 09:24:43.616  === Full refresh done ===
+2025-09-26 09:49:31.290  === Full refresh start ===
+2025-09-26 09:54:43.142  Fetched rows: 6882 | Columns: 6882
+2025-09-26 09:54:43.220  Truncating target: dbo.[Denial]
+2025-09-26 09:54:43.629  Bulk copying directly to target...
+2025-09-26 09:54:44.177  === Full refresh done ===
+2025-09-26 10:19:31.321  === Full refresh start ===
+2025-09-26 10:24:33.009  Fetched rows: 6882 | Columns: 6882
+2025-09-26 10:24:33.073  Truncating target: dbo.[Denial]
+2025-09-26 10:24:33.496  Bulk copying directly to target...
+2025-09-26 10:24:34.013  === Full refresh done ===
+2025-09-26 10:49:31.679  === Full refresh start ===
+2025-09-26 10:54:34.314  Fetched rows: 6882 | Columns: 6882
+2025-09-26 10:54:34.381  Truncating target: dbo.[Denial]
+2025-09-26 10:54:34.843  Bulk copying directly to target...
+2025-09-26 10:54:35.674  === Full refresh done ===
+2025-09-26 11:19:31.517  === Full refresh start ===
+2025-09-26 11:24:39.641  Fetched rows: 6882 | Columns: 6882
+2025-09-26 11:24:39.725  Truncating target: dbo.[Denial]
+2025-09-26 11:24:40.174  Bulk copying directly to target...
+2025-09-26 11:24:40.888  === Full refresh done ===
+2025-09-26 11:49:31.437  === Full refresh start ===
+2025-09-26 11:54:53.006  Fetched rows: 6882 | Columns: 6882
+2025-09-26 11:54:53.053  Truncating target: dbo.[Denial]
+2025-09-26 11:54:53.514  Bulk copying directly to target...
+2025-09-26 11:54:54.341  === Full refresh done ===
+2025-09-26 12:19:31.738  === Full refresh start ===
+2025-09-26 12:24:49.368  Fetched rows: 6882 | Columns: 6882
+2025-09-26 12:24:49.400  Truncating target: dbo.[Denial]
+2025-09-26 12:24:49.778  Bulk copying directly to target...
+2025-09-26 12:24:50.295  === Full refresh done ===
+2025-09-26 12:49:31.597  === Full refresh start ===
+2025-09-26 12:54:39.974  Fetched rows: 6882 | Columns: 6882
+2025-09-26 12:54:40.021  Truncating target: dbo.[Denial]
+2025-09-26 12:54:40.528  Bulk copying directly to target...
+2025-09-26 12:54:41.490  === Full refresh done ===
+2025-09-26 13:19:32.022  === Full refresh start ===
+2025-09-26 13:24:36.509  Fetched rows: 6882 | Columns: 6882
+2025-09-26 13:24:36.521  Truncating target: dbo.[Denial]
+2025-09-26 13:24:37.017  Bulk copying directly to target...
+2025-09-26 13:24:37.872  === Full refresh done ===
+2025-09-26 13:49:31.548  === Full refresh start ===
+2025-09-26 13:54:45.457  Fetched rows: 6882 | Columns: 6882
+2025-09-26 13:54:45.520  Truncating target: dbo.[Denial]
+2025-09-26 13:54:45.940  Bulk copying directly to target...
+2025-09-26 13:54:46.412  === Full refresh done ===
+2025-09-26 14:19:31.330  === Full refresh start ===
+2025-09-26 14:24:37.382  Fetched rows: 6882 | Columns: 6882
+2025-09-26 14:24:37.468  Truncating target: dbo.[Denial]
+2025-09-26 14:24:37.927  Bulk copying directly to target...
+2025-09-26 14:24:38.600  === Full refresh done ===
+2025-09-26 14:49:31.504  === Full refresh start ===
+2025-09-26 14:54:44.156  Fetched rows: 6882 | Columns: 6882
+2025-09-26 14:54:44.201  Truncating target: dbo.[Denial]
+2025-09-26 14:54:44.661  Bulk copying directly to target...
+2025-09-26 14:54:45.326  === Full refresh done ===
+2025-09-26 15:26:22.058  === Full refresh start ===
+2025-09-26 15:31:27.605  Fetched rows: 6882 | Columns: 6882
+2025-09-26 15:31:27.680  Truncating target: dbo.[Denial]
+2025-09-26 15:31:28.132  Bulk copying directly to target...
+2025-09-26 15:31:29.544  === Full refresh done ===
+2025-09-26 16:18:05.998  === Full refresh start ===
+2025-09-26 16:23:22.271  Fetched rows: 6882 | Columns: 6882
+2025-09-26 16:23:22.343  Truncating target: dbo.[Denial]
+2025-09-26 16:23:22.772  Bulk copying directly to target...
+2025-09-26 16:23:23.313  === Full refresh done ===
+2025-09-26 16:49:31.397  === Full refresh start ===
+2025-09-26 16:54:37.278  Fetched rows: 6882 | Columns: 6882
+2025-09-26 16:54:37.363  Truncating target: dbo.[Denial]
+2025-09-26 16:54:37.762  Bulk copying directly to target...
+2025-09-26 16:54:38.384  === Full refresh done ===
+2025-09-26 20:36:46.685  === Full refresh start ===
+2025-09-26 20:37:02.390  First 10 source cols: 
+2025-09-26 20:37:02.395  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-27 20:36:39.956  === Full refresh start ===
+2025-09-27 20:37:01.297  First 10 source cols: 
+2025-09-27 20:37:01.408  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The network location cannot be reached. For information about network troubleshooting, see Windows Help.)"
+2025-09-28 01:00:12.447  === Full refresh start ===
+2025-09-28 01:00:28.639  First 10 source cols: 
+2025-09-28 01:00:28.649  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 08:19:31.300  === Full refresh start ===
+2025-09-29 08:19:46.797  First 10 source cols: 
+2025-09-29 08:19:46.805  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 08:49:31.304  === Full refresh start ===
+2025-09-29 08:49:46.845  First 10 source cols: 
+2025-09-29 08:49:46.874  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 09:19:31.182  === Full refresh start ===
+2025-09-29 09:19:46.743  First 10 source cols: 
+2025-09-29 09:19:46.743  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 09:49:31.087  === Full refresh start ===
+2025-09-29 09:49:46.610  First 10 source cols: 
+2025-09-29 09:49:46.645  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 10:19:31.271  === Full refresh start ===
+2025-09-29 10:19:46.814  First 10 source cols: 
+2025-09-29 10:19:46.820  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 10:49:31.300  === Full refresh start ===
+2025-09-29 10:49:46.809  First 10 source cols: 
+2025-09-29 10:49:46.824  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 11:19:32.128  === Full refresh start ===
+2025-09-29 11:19:47.783  First 10 source cols: 
+2025-09-29 11:19:47.784  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 11:49:31.397  === Full refresh start ===
+2025-09-29 11:49:46.941  First 10 source cols: 
+2025-09-29 11:49:46.951  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 12:19:31.296  === Full refresh start ===
+2025-09-29 12:19:46.842  First 10 source cols: 
+2025-09-29 12:19:46.848  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 12:49:31.359  === Full refresh start ===
+2025-09-29 12:49:46.896  First 10 source cols: 
+2025-09-29 12:49:46.904  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 13:19:31.204  === Full refresh start ===
+2025-09-29 13:19:46.743  First 10 source cols: 
+2025-09-29 13:19:46.743  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 13:49:31.479  === Full refresh start ===
+2025-09-29 13:49:47.080  First 10 source cols: 
+2025-09-29 13:49:47.097  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 14:19:30.989  === Full refresh start ===
+2025-09-29 14:19:46.476  First 10 source cols: 
+2025-09-29 14:19:46.493  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 14:49:30.626  === Full refresh start ===
+2025-09-29 14:49:46.131  First 10 source cols: 
+2025-09-29 14:49:46.135  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 15:19:31.044  === Full refresh start ===
+2025-09-29 15:19:46.489  First 10 source cols: 
+2025-09-29 15:19:46.505  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 15:49:31.000  === Full refresh start ===
+2025-09-29 15:49:46.460  First 10 source cols: 
+2025-09-29 15:49:46.464  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 16:19:31.016  === Full refresh start ===
+2025-09-29 16:19:46.493  First 10 source cols: 
+2025-09-29 16:19:46.497  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-29 20:07:41.631  === Full refresh start ===
+2025-09-29 20:07:57.605  First 10 source cols: 
+2025-09-29 20:07:57.626  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-30 08:16:10.714  === Full refresh start ===
+2025-09-30 08:16:26.513  First 10 source cols: 
+2025-09-30 08:16:26.560  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-30 08:19:31.652  === Full refresh start ===
+2025-09-30 08:19:47.350  First 10 source cols: 
+2025-09-30 08:19:47.360  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-30 08:49:31.352  === Full refresh start ===
+2025-09-30 08:49:46.879  First 10 source cols: 
+2025-09-30 08:49:46.897  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-09-30 09:01:46.151  === Full refresh start ===
+2025-09-30 09:03:07.612  Fetched rows: 6922 | Columns: 6922
+2025-09-30 09:03:07.689  Truncating target: dbo.[Denial]
+2025-09-30 09:03:08.071  Bulk copying directly to target...
+2025-09-30 09:03:08.614  === Full refresh done ===
+2025-09-30 09:19:30.959  === Full refresh start ===
+2025-09-30 09:20:52.898  Fetched rows: 6922 | Columns: 6922
+2025-09-30 09:20:52.916  Truncating target: dbo.[Denial]
+2025-09-30 09:20:53.259  Bulk copying directly to target...
+2025-09-30 09:20:53.807  === Full refresh done ===
+2025-09-30 09:49:31.342  === Full refresh start ===
+2025-09-30 09:50:52.239  Fetched rows: 6922 | Columns: 6922
+2025-09-30 09:50:52.302  Truncating target: dbo.[Denial]
+2025-09-30 09:50:52.760  Bulk copying directly to target...
+2025-09-30 09:50:53.270  === Full refresh done ===
+2025-09-30 10:19:31.263  === Full refresh start ===
+2025-09-30 10:20:53.197  Fetched rows: 6922 | Columns: 6922
+2025-09-30 10:20:53.239  Truncating target: dbo.[Denial]
+2025-09-30 10:20:53.682  Bulk copying directly to target...
+2025-09-30 10:20:54.182  === Full refresh done ===
+2025-09-30 10:49:31.271  === Full refresh start ===
+2025-09-30 10:50:52.288  Fetched rows: 6922 | Columns: 6922
+2025-09-30 10:50:52.345  Truncating target: dbo.[Denial]
+2025-09-30 10:50:52.712  Bulk copying directly to target...
+2025-09-30 10:50:53.235  === Full refresh done ===
+2025-09-30 11:19:31.206  === Full refresh start ===
+2025-09-30 11:20:51.978  Fetched rows: 6922 | Columns: 6922
+2025-09-30 11:20:52.000  Truncating target: dbo.[Denial]
+2025-09-30 11:20:52.368  Bulk copying directly to target...
+2025-09-30 11:20:52.853  === Full refresh done ===
+2025-09-30 11:49:31.305  === Full refresh start ===
+2025-09-30 11:50:53.875  Fetched rows: 6922 | Columns: 6922
+2025-09-30 11:50:53.906  Truncating target: dbo.[Denial]
+2025-09-30 11:50:54.321  Bulk copying directly to target...
+2025-09-30 11:50:54.903  === Full refresh done ===
+2025-09-30 12:19:31.209  === Full refresh start ===
+2025-09-30 12:20:52.984  Fetched rows: 6922 | Columns: 6922
+2025-09-30 12:20:53.068  Truncating target: dbo.[Denial]
+2025-09-30 12:20:53.464  Bulk copying directly to target...
+2025-09-30 12:20:54.021  === Full refresh done ===
+2025-09-30 12:49:31.365  === Full refresh start ===
+2025-09-30 12:50:52.970  Fetched rows: 6922 | Columns: 6922
+2025-09-30 12:50:53.019  Truncating target: dbo.[Denial]
+2025-09-30 12:50:53.386  Bulk copying directly to target...
+2025-09-30 12:50:53.933  === Full refresh done ===
+2025-09-30 13:19:31.092  === Full refresh start ===
+2025-09-30 13:20:53.282  Fetched rows: 6922 | Columns: 6922
+2025-09-30 13:20:53.314  Truncating target: dbo.[Denial]
+2025-09-30 13:20:54.931  Bulk copying directly to target...
+2025-09-30 13:20:55.437  === Full refresh done ===
+2025-09-30 13:49:31.349  === Full refresh start ===
+2025-09-30 13:50:53.412  Fetched rows: 6922 | Columns: 6922
+2025-09-30 13:50:53.459  Truncating target: dbo.[Denial]
+2025-09-30 13:50:53.906  Bulk copying directly to target...
+2025-09-30 13:50:54.517  === Full refresh done ===
+2025-09-30 14:19:31.159  === Full refresh start ===
+2025-09-30 14:20:54.557  Fetched rows: 6922 | Columns: 6922
+2025-09-30 14:20:54.579  Truncating target: dbo.[Denial]
+2025-09-30 14:20:54.975  Bulk copying directly to target...
+2025-09-30 14:20:55.669  === Full refresh done ===
+2025-09-30 14:49:30.946  === Full refresh start ===
+2025-09-30 14:50:53.702  Fetched rows: 6922 | Columns: 6922
+2025-09-30 14:50:53.774  Truncating target: dbo.[Denial]
+2025-09-30 14:50:54.169  Bulk copying directly to target...
+2025-09-30 14:50:54.707  === Full refresh done ===
+2025-09-30 15:19:31.419  === Full refresh start ===
+2025-09-30 15:20:58.786  Fetched rows: 6922 | Columns: 6922
+2025-09-30 15:20:58.830  Truncating target: dbo.[Denial]
+2025-09-30 15:20:59.207  Bulk copying directly to target...
+2025-09-30 15:20:59.700  === Full refresh done ===
+2025-09-30 15:49:31.120  === Full refresh start ===
+2025-09-30 15:50:55.964  Fetched rows: 6922 | Columns: 6922
+2025-09-30 15:50:55.987  Truncating target: dbo.[Denial]
+2025-09-30 15:50:56.418  Bulk copying directly to target...
+2025-09-30 15:50:56.897  === Full refresh done ===
+2025-09-30 16:19:31.187  === Full refresh start ===
+2025-09-30 16:20:52.507  Fetched rows: 6922 | Columns: 6922
+2025-09-30 16:20:52.533  Truncating target: dbo.[Denial]
+2025-09-30 16:20:52.958  Bulk copying directly to target...
+2025-09-30 16:20:53.452  === Full refresh done ===
+2025-09-30 20:07:52.030  === Full refresh start ===
+2025-09-30 20:08:07.696  First 10 source cols: 
+2025-09-30 20:08:07.717  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-10-01 03:00:23.025  === Full refresh start ===
+2025-10-01 08:07:39.611  First 10 source cols: 
+2025-10-01 08:07:39.627  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-10-01 08:19:31.677  === Full refresh start ===
+2025-10-01 08:24:39.289  Fetched rows: 6942 | Columns: 6942
+2025-10-01 08:24:39.431  Truncating target: dbo.[Denial]
+2025-10-01 08:24:40.090  Bulk copying directly to target...
+2025-10-01 08:24:40.963  === Full refresh done ===
+2025-10-01 08:49:31.509  === Full refresh start ===
+2025-10-01 08:54:46.673  Fetched rows: 6942 | Columns: 6942
+2025-10-01 08:54:46.744  Truncating target: dbo.[Denial]
+2025-10-01 08:54:47.158  Bulk copying directly to target...
+2025-10-01 08:54:47.720  === Full refresh done ===
+2025-10-01 09:46:37.926  === Full refresh start ===
+2025-10-01 09:51:54.557  Fetched rows: 6942 | Columns: 6942
+2025-10-01 09:51:54.638  Truncating target: dbo.[Denial]
+2025-10-01 09:51:55.112  Bulk copying directly to target...
+2025-10-01 09:51:55.668  === Full refresh done ===
+2025-10-01 10:19:30.960  === Full refresh start ===
+2025-10-01 10:24:49.117  Fetched rows: 6942 | Columns: 6942
+2025-10-01 10:24:49.150  Truncating target: dbo.[Denial]
+2025-10-01 10:24:49.547  Bulk copying directly to target...
+2025-10-01 10:24:49.993  === Full refresh done ===
+2025-10-01 10:49:31.444  === Full refresh start ===
+2025-10-01 10:54:47.300  Fetched rows: 6942 | Columns: 6942
+2025-10-01 10:54:47.381  Truncating target: dbo.[Denial]
+2025-10-01 10:54:47.856  Bulk copying directly to target...
+2025-10-01 10:54:48.340  === Full refresh done ===
+2025-10-01 11:19:31.024  === Full refresh start ===
+2025-10-01 11:24:39.462  Fetched rows: 6942 | Columns: 6942
+2025-10-01 11:24:39.493  Truncating target: dbo.[Denial]
+2025-10-01 11:24:39.862  Bulk copying directly to target...
+2025-10-01 11:24:40.321  === Full refresh done ===
+2025-10-01 11:49:31.006  === Full refresh start ===
+2025-10-01 11:55:00.011  Fetched rows: 6942 | Columns: 6942
+2025-10-01 11:55:00.045  Truncating target: dbo.[Denial]
+2025-10-01 11:55:00.474  Bulk copying directly to target...
+2025-10-01 11:55:01.040  === Full refresh done ===
+2025-10-01 12:19:31.384  === Full refresh start ===
+2025-10-01 12:24:44.481  Fetched rows: 6942 | Columns: 6942
+2025-10-01 12:24:44.510  Truncating target: dbo.[Denial]
+2025-10-01 12:24:44.930  Bulk copying directly to target...
+2025-10-01 12:24:45.511  === Full refresh done ===
+2025-10-01 12:49:31.244  === Full refresh start ===
+2025-10-01 12:54:48.372  Fetched rows: 6942 | Columns: 6942
+2025-10-01 12:54:48.467  Truncating target: dbo.[Denial]
+2025-10-01 12:54:48.908  Bulk copying directly to target...
+2025-10-01 12:54:49.541  === Full refresh done ===
+2025-10-01 13:19:31.297  === Full refresh start ===
+2025-10-01 13:24:36.345  Fetched rows: 6942 | Columns: 6942
+2025-10-01 13:24:36.372  Truncating target: dbo.[Denial]
+2025-10-01 13:24:36.786  Bulk copying directly to target...
+2025-10-01 13:24:37.294  === Full refresh done ===
+2025-10-01 13:49:31.181  === Full refresh start ===
+2025-10-01 13:54:33.107  Fetched rows: 6942 | Columns: 6942
+2025-10-01 13:54:33.130  Truncating target: dbo.[Denial]
+2025-10-01 13:54:33.504  Bulk copying directly to target...
+2025-10-01 13:54:34.048  === Full refresh done ===
+2025-10-01 14:19:31.183  === Full refresh start ===
+2025-10-01 14:24:44.840  Fetched rows: 6942 | Columns: 6942
+2025-10-01 14:24:44.870  Truncating target: dbo.[Denial]
+2025-10-01 14:24:45.276  Bulk copying directly to target...
+2025-10-01 14:24:45.757  === Full refresh done ===
+2025-10-01 14:49:31.053  === Full refresh start ===
+2025-10-01 14:54:44.275  Fetched rows: 6942 | Columns: 6942
+2025-10-01 14:54:44.318  Truncating target: dbo.[Denial]
+2025-10-01 14:54:44.719  Bulk copying directly to target...
+2025-10-01 14:54:45.227  === Full refresh done ===
+2025-10-01 15:19:31.483  === Full refresh start ===
+2025-10-01 15:25:03.102  Fetched rows: 6942 | Columns: 6942
+2025-10-01 15:25:03.180  Truncating target: dbo.[Denial]
+2025-10-01 15:25:03.640  Bulk copying directly to target...
+2025-10-01 15:25:04.303  === Full refresh done ===
+2025-10-01 15:49:31.321  === Full refresh start ===
+2025-10-01 15:54:47.530  Fetched rows: 6942 | Columns: 6942
+2025-10-01 15:54:47.551  Truncating target: dbo.[Denial]
+2025-10-01 15:54:47.947  Bulk copying directly to target...
+2025-10-01 15:54:48.531  === Full refresh done ===
+2025-10-01 16:19:30.973  === Full refresh start ===
+2025-10-01 16:24:45.139  Fetched rows: 6942 | Columns: 6942
+2025-10-01 16:24:45.165  Truncating target: dbo.[Denial]
+2025-10-01 16:24:45.559  Bulk copying directly to target...
+2025-10-01 16:24:46.058  === Full refresh done ===
+2025-10-01 20:13:18.135  === Full refresh start ===
+2025-10-01 20:13:34.897  First 10 source cols: 
+2025-10-01 20:13:34.917  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-10-02 08:16:26.109  === Full refresh start ===
+2025-10-02 08:16:43.824  First 10 source cols: 
+2025-10-02 08:16:43.836  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-10-02 08:19:31.213  === Full refresh start ===
+2025-10-02 08:20:54.268  Fetched rows: 6960 | Columns: 6960
+2025-10-02 08:20:54.362  Truncating target: dbo.[Denial]
+2025-10-02 08:20:55.113  Bulk copying directly to target...
+2025-10-02 08:20:55.815  === Full refresh done ===
+2025-10-02 08:49:31.708  === Full refresh start ===
+2025-10-02 08:50:53.205  Fetched rows: 6960 | Columns: 6960
+2025-10-02 08:50:53.251  Truncating target: dbo.[Denial]
+2025-10-02 08:50:53.702  Bulk copying directly to target...
+2025-10-02 08:50:54.199  === Full refresh done ===
+2025-10-02 09:19:31.444  === Full refresh start ===
+2025-10-02 09:20:54.591  Fetched rows: 6960 | Columns: 6960
+2025-10-02 09:20:54.613  Truncating target: dbo.[Denial]
+2025-10-02 09:20:55.039  Bulk copying directly to target...
+2025-10-02 09:20:55.506  === Full refresh done ===
+2025-10-02 09:49:31.326  === Full refresh start ===
+2025-10-02 09:50:53.088  Fetched rows: 6960 | Columns: 6960
+2025-10-02 09:50:53.109  Truncating target: dbo.[Denial]
+2025-10-02 09:50:53.455  Bulk copying directly to target...
+2025-10-02 09:50:53.920  === Full refresh done ===
+2025-10-02 10:19:31.391  === Full refresh start ===
+2025-10-02 10:20:55.256  Fetched rows: 6960 | Columns: 6960
+2025-10-02 10:20:55.282  Truncating target: dbo.[Denial]
+2025-10-02 10:20:55.617  Bulk copying directly to target...
+2025-10-02 10:20:56.116  === Full refresh done ===
+2025-10-02 10:49:31.327  === Full refresh start ===
+2025-10-02 10:50:51.955  Fetched rows: 6960 | Columns: 6960
+2025-10-02 10:50:52.000  Truncating target: dbo.[Denial]
+2025-10-02 10:50:52.387  Bulk copying directly to target...
+2025-10-02 10:50:52.869  === Full refresh done ===
+2025-10-02 11:19:31.489  === Full refresh start ===
+2025-10-02 11:20:54.105  Fetched rows: 6960 | Columns: 6960
+2025-10-02 11:20:54.129  Truncating target: dbo.[Denial]
+2025-10-02 11:20:54.509  Bulk copying directly to target...
+2025-10-02 11:20:54.977  === Full refresh done ===
+2025-10-02 11:49:31.397  === Full refresh start ===
+2025-10-02 11:51:13.608  Fetched rows: 6960 | Columns: 6960
+2025-10-02 11:51:13.651  Truncating target: dbo.[Denial]
+2025-10-02 11:51:14.060  Bulk copying directly to target...
+2025-10-02 11:51:14.528  === Full refresh done ===
+2025-10-02 12:19:31.442  === Full refresh start ===
+2025-10-02 12:20:54.234  Fetched rows: 6960 | Columns: 6960
+2025-10-02 12:20:54.279  Truncating target: dbo.[Denial]
+2025-10-02 12:20:54.683  Bulk copying directly to target...
+2025-10-02 12:20:55.153  === Full refresh done ===
+2025-10-02 12:49:31.354  === Full refresh start ===
+2025-10-02 12:50:56.820  Fetched rows: 6960 | Columns: 6960
+2025-10-02 12:50:56.865  Truncating target: dbo.[Denial]
+2025-10-02 12:50:57.273  Bulk copying directly to target...
+2025-10-02 12:50:57.771  === Full refresh done ===
+2025-10-02 13:19:31.251  === Full refresh start ===
+2025-10-02 13:20:53.938  Fetched rows: 6960 | Columns: 6960
+2025-10-02 13:20:53.963  Truncating target: dbo.[Denial]
+2025-10-02 13:20:54.379  Bulk copying directly to target...
+2025-10-02 13:20:54.841  === Full refresh done ===
+2025-10-02 13:49:31.502  === Full refresh start ===
+2025-10-02 13:50:52.752  Fetched rows: 6960 | Columns: 6960
+2025-10-02 13:50:52.840  Truncating target: dbo.[Denial]
+2025-10-02 13:50:53.277  Bulk copying directly to target...
+2025-10-02 13:50:53.801  === Full refresh done ===
+2025-10-02 14:19:31.373  === Full refresh start ===
+2025-10-02 14:20:52.385  Fetched rows: 6960 | Columns: 6960
+2025-10-02 14:20:52.413  Truncating target: dbo.[Denial]
+2025-10-02 14:20:52.813  Bulk copying directly to target...
+2025-10-02 14:20:53.285  === Full refresh done ===
+2025-10-02 14:49:30.692  === Full refresh start ===
+2025-10-02 14:50:50.999  Fetched rows: 6960 | Columns: 6960
+2025-10-02 14:50:51.088  Truncating target: dbo.[Denial]
+2025-10-02 14:50:51.539  Bulk copying directly to target...
+2025-10-02 14:50:52.053  === Full refresh done ===
+2025-10-02 15:19:31.470  === Full refresh start ===
+2025-10-02 15:20:54.367  Fetched rows: 6960 | Columns: 6960
+2025-10-02 15:20:54.390  Truncating target: dbo.[Denial]
+2025-10-02 15:20:54.804  Bulk copying directly to target...
+2025-10-02 15:20:55.266  === Full refresh done ===
+2025-10-02 15:49:31.380  === Full refresh start ===
+2025-10-02 15:50:54.340  Fetched rows: 6960 | Columns: 6960
+2025-10-02 15:50:54.368  Truncating target: dbo.[Denial]
+2025-10-02 15:50:54.761  Bulk copying directly to target...
+2025-10-02 15:50:55.215  === Full refresh done ===
+2025-10-02 16:19:31.266  === Full refresh start ===
+2025-10-02 16:21:41.992  Fetched rows: 6960 | Columns: 6960
+2025-10-02 16:21:42.024  Truncating target: dbo.[Denial]
+2025-10-02 16:21:42.384  Bulk copying directly to target...
+2025-10-02 16:21:42.855  === Full refresh done ===
+2025-10-02 20:13:12.953  === Full refresh start ===
+2025-10-02 20:13:29.225  First 10 source cols: 
+2025-10-02 20:13:29.241  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-10-03 06:03:24.654  === Full refresh start ===
+2025-10-03 06:03:41.545  First 10 source cols: 
+2025-10-03 06:03:41.562  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-10-03 06:19:31.256  === Full refresh start ===
+2025-10-03 06:24:41.659  Fetched rows: 6973 | Columns: 6973
+2025-10-03 06:24:41.733  Truncating target: dbo.[Denial]
+2025-10-03 06:24:47.280  First 10 source cols: 
+2025-10-03 06:24:47.295  Error: Exception calling "Open" with "0" argument(s): "Login failed for user 'Onward'."
+2025-10-03 06:49:31.386  === Full refresh start ===
+2025-10-03 06:54:55.092  Fetched rows: 6973 | Columns: 6973
+2025-10-03 06:54:55.218  Truncating target: dbo.[Denial]
+2025-10-03 06:55:00.759  First 10 source cols: 
+2025-10-03 06:55:00.782  Error: Exception calling "Open" with "0" argument(s): "Login failed for user 'Onward'."
+2025-10-03 07:19:31.385  === Full refresh start ===
+2025-10-03 07:24:42.401  Fetched rows: 6973 | Columns: 6973
+2025-10-03 07:24:42.498  Truncating target: dbo.[Denial]
+2025-10-03 07:24:43.155  Bulk copying directly to target...
+2025-10-03 07:24:43.954  === Full refresh done ===
+2025-10-03 07:49:31.821  === Full refresh start ===
+2025-10-03 07:54:44.678  Fetched rows: 6973 | Columns: 6973
+2025-10-03 07:54:44.718  Truncating target: dbo.[Denial]
+2025-10-03 07:54:45.116  Bulk copying directly to target...
+2025-10-03 07:54:45.577  === Full refresh done ===
+2025-10-03 08:19:31.411  === Full refresh start ===
+2025-10-03 08:24:48.114  Fetched rows: 6973 | Columns: 6973
+2025-10-03 08:24:48.215  Truncating target: dbo.[Denial]
+2025-10-03 08:24:48.717  Bulk copying directly to target...
+2025-10-03 08:24:49.338  === Full refresh done ===
+2025-10-03 08:49:31.350  === Full refresh start ===
+2025-10-03 08:54:43.632  Fetched rows: 6973 | Columns: 6973
+2025-10-03 08:54:43.665  Truncating target: dbo.[Denial]
+2025-10-03 08:54:44.020  Bulk copying directly to target...
+2025-10-03 08:54:44.578  === Full refresh done ===
+2025-10-03 09:19:31.538  === Full refresh start ===
+2025-10-03 09:24:57.508  Fetched rows: 6973 | Columns: 6973
+2025-10-03 09:24:57.569  Truncating target: dbo.[Denial]
+2025-10-03 09:24:57.984  Bulk copying directly to target...
+2025-10-03 09:24:58.560  === Full refresh done ===
+2025-10-03 09:49:31.628  === Full refresh start ===
+2025-10-03 09:54:38.427  Fetched rows: 6973 | Columns: 6973
+2025-10-03 09:54:38.457  Truncating target: dbo.[Denial]
+2025-10-03 09:54:38.879  Bulk copying directly to target...
+2025-10-03 09:54:39.443  === Full refresh done ===
+2025-10-03 10:19:31.276  === Full refresh start ===
+2025-10-03 10:24:39.956  Fetched rows: 6973 | Columns: 6973
+2025-10-03 10:24:39.987  Truncating target: dbo.[Denial]
+2025-10-03 10:24:40.401  Bulk copying directly to target...
+2025-10-03 10:24:41.033  === Full refresh done ===
+2025-10-03 10:49:31.255  === Full refresh start ===
+2025-10-03 10:54:45.945  Fetched rows: 6973 | Columns: 6973
+2025-10-03 10:54:46.055  Truncating target: dbo.[Denial]
+2025-10-03 10:54:46.567  Bulk copying directly to target...
+2025-10-03 10:54:47.179  === Full refresh done ===
+2025-10-03 11:19:31.303  === Full refresh start ===
+2025-10-03 11:24:44.222  Fetched rows: 6973 | Columns: 6973
+2025-10-03 11:24:44.288  Truncating target: dbo.[Denial]
+2025-10-03 11:24:44.742  Bulk copying directly to target...
+2025-10-03 11:24:45.505  === Full refresh done ===
+2025-10-03 11:49:31.026  === Full refresh start ===
+2025-10-03 11:54:34.193  Fetched rows: 6973 | Columns: 6973
+2025-10-03 11:54:34.215  Truncating target: dbo.[Denial]
+2025-10-03 11:54:34.777  Bulk copying directly to target...
+2025-10-03 11:54:35.438  === Full refresh done ===
+2025-10-03 12:19:30.993  === Full refresh start ===
+2025-10-03 12:24:43.398  Fetched rows: 6973 | Columns: 6973
+2025-10-03 12:24:43.429  Truncating target: dbo.[Denial]
+2025-10-03 12:24:43.850  Bulk copying directly to target...
+2025-10-03 12:24:44.319  === Full refresh done ===
+2025-10-03 12:49:31.360  === Full refresh start ===
+2025-10-03 12:54:40.029  Fetched rows: 6973 | Columns: 6973
+2025-10-03 12:54:40.059  Truncating target: dbo.[Denial]
+2025-10-03 12:54:40.417  Bulk copying directly to target...
+2025-10-03 12:54:41.020  === Full refresh done ===
+2025-10-03 13:19:31.402  === Full refresh start ===
+2025-10-03 13:24:48.079  Fetched rows: 6973 | Columns: 6973
+2025-10-03 13:24:48.152  Truncating target: dbo.[Denial]
+2025-10-03 13:24:48.597  Bulk copying directly to target...
+2025-10-03 13:24:49.199  === Full refresh done ===
+2025-10-03 13:49:31.248  === Full refresh start ===
+2025-10-03 13:54:52.982  Fetched rows: 6973 | Columns: 6973
+2025-10-03 13:54:52.998  Truncating target: dbo.[Denial]
+2025-10-03 13:54:53.420  Bulk copying directly to target...
+2025-10-03 13:54:53.983  === Full refresh done ===
+2025-10-03 14:19:31.594  === Full refresh start ===
+2025-10-03 14:24:39.494  Fetched rows: 6973 | Columns: 6973
+2025-10-03 14:24:39.565  Truncating target: dbo.[Denial]
+2025-10-03 14:24:39.992  Bulk copying directly to target...
+2025-10-03 14:24:40.515  === Full refresh done ===
+2025-10-06 08:18:39.018  === Full refresh start ===
+2025-10-06 08:23:46.909  Fetched rows: 6992 | Columns: 6992
+2025-10-06 08:23:47.034  Truncating target: dbo.[Denial]
+2025-10-06 08:23:47.682  Bulk copying directly to target...
+2025-10-06 08:23:48.494  === Full refresh done ===
+2025-10-06 08:49:30.972  === Full refresh start ===
+2025-10-06 08:54:43.780  Fetched rows: 6992 | Columns: 6992
+2025-10-06 08:54:44.166  Truncating target: dbo.[Denial]
+2025-10-06 08:54:44.768  Bulk copying directly to target...
+2025-10-06 08:54:46.466  === Full refresh done ===
+2025-10-06 09:19:31.324  === Full refresh start ===
+2025-10-06 09:24:43.854  Fetched rows: 6992 | Columns: 6992
+2025-10-06 09:24:43.954  Truncating target: dbo.[Denial]
+2025-10-06 09:24:44.415  Bulk copying directly to target...
+2025-10-06 09:24:44.953  === Full refresh done ===
+2025-10-06 09:49:35.898  === Full refresh start ===
+2025-10-06 09:54:51.506  Fetched rows: 6992 | Columns: 6992
+2025-10-06 09:54:51.537  Truncating target: dbo.[Denial]
+2025-10-06 09:54:51.918  Bulk copying directly to target...
+2025-10-06 09:54:52.568  === Full refresh done ===
+2025-10-06 10:19:31.554  === Full refresh start ===
+2025-10-06 10:24:59.243  Fetched rows: 6992 | Columns: 6992
+2025-10-06 10:24:59.337  Truncating target: dbo.[Denial]
+2025-10-06 10:24:59.801  Bulk copying directly to target...
+2025-10-06 10:25:00.516  === Full refresh done ===
+2025-10-06 10:49:31.239  === Full refresh start ===
+2025-10-06 10:54:44.132  Fetched rows: 6992 | Columns: 6992
+2025-10-06 10:54:44.149  Truncating target: dbo.[Denial]
+2025-10-06 10:54:44.552  Bulk copying directly to target...
+2025-10-06 10:54:45.057  === Full refresh done ===
+2025-10-06 11:19:31.217  === Full refresh start ===
+2025-10-06 11:24:42.495  Fetched rows: 6992 | Columns: 6992
+2025-10-06 11:24:42.522  Truncating target: dbo.[Denial]
+2025-10-06 11:24:42.967  Bulk copying directly to target...
+2025-10-06 11:24:43.469  === Full refresh done ===
+2025-10-06 11:49:31.295  === Full refresh start ===
+2025-10-06 11:54:48.070  Fetched rows: 6992 | Columns: 6992
+2025-10-06 11:54:48.141  Truncating target: dbo.[Denial]
+2025-10-06 11:54:48.592  Bulk copying directly to target...
+2025-10-06 11:54:49.211  === Full refresh done ===
+2025-10-06 12:19:30.944  === Full refresh start ===
+2025-10-06 12:24:42.113  Fetched rows: 6992 | Columns: 6992
+2025-10-06 12:24:42.143  Truncating target: dbo.[Denial]
+2025-10-06 12:24:42.559  Bulk copying directly to target...
+2025-10-06 12:24:43.052  === Full refresh done ===
+2025-10-06 12:49:31.200  === Full refresh start ===
+2025-10-06 12:54:47.825  Fetched rows: 6992 | Columns: 6992
+2025-10-06 12:54:47.852  Truncating target: dbo.[Denial]
+2025-10-06 12:54:48.293  Bulk copying directly to target...
+2025-10-06 12:54:48.764  === Full refresh done ===
+2025-10-06 13:19:31.280  === Full refresh start ===
+2025-10-06 13:24:38.040  Fetched rows: 6992 | Columns: 6992
+2025-10-06 13:24:38.065  Truncating target: dbo.[Denial]
+2025-10-06 13:24:38.451  Bulk copying directly to target...
+2025-10-06 13:24:38.929  === Full refresh done ===
+2025-10-06 13:49:31.416  === Full refresh start ===
+2025-10-06 13:54:45.569  Fetched rows: 6992 | Columns: 6992
+2025-10-06 13:54:45.638  Truncating target: dbo.[Denial]
+2025-10-06 13:54:46.028  Bulk copying directly to target...
+2025-10-06 13:54:46.564  === Full refresh done ===
+2025-10-06 14:19:31.418  === Full refresh start ===
+2025-10-06 14:24:42.397  Fetched rows: 6992 | Columns: 6992
+2025-10-06 14:24:42.430  Truncating target: dbo.[Denial]
+2025-10-06 14:24:42.787  Bulk copying directly to target...
+2025-10-06 14:24:43.381  === Full refresh done ===
+2025-10-06 14:49:31.424  === Full refresh start ===
+2025-10-06 14:54:34.134  Fetched rows: 6992 | Columns: 6992
+2025-10-06 14:54:34.217  Truncating target: dbo.[Denial]
+2025-10-06 14:54:34.676  Bulk copying directly to target...
+2025-10-06 14:54:35.374  === Full refresh done ===
+2025-10-06 15:19:31.562  === Full refresh start ===
+2025-10-06 15:24:45.038  Fetched rows: 6992 | Columns: 6992
+2025-10-06 15:24:45.075  Truncating target: dbo.[Denial]
+2025-10-06 15:24:45.477  Bulk copying directly to target...
+2025-10-06 15:24:45.985  === Full refresh done ===
+2025-10-06 15:49:31.042  === Full refresh start ===
+2025-10-06 15:54:37.375  Fetched rows: 6992 | Columns: 6992
+2025-10-06 15:54:37.409  Truncating target: dbo.[Denial]
+2025-10-06 15:54:37.864  Bulk copying directly to target...
+2025-10-06 15:54:38.363  === Full refresh done ===
+2025-10-06 16:19:31.319  === Full refresh start ===
+2025-10-06 16:24:47.633  Fetched rows: 6992 | Columns: 6992
+2025-10-06 16:24:47.714  Truncating target: dbo.[Denial]
+2025-10-06 16:24:48.098  Bulk copying directly to target...
+2025-10-06 16:24:48.770  === Full refresh done ===
+2025-10-06 16:49:31.061  === Full refresh start ===
+2025-10-06 20:19:35.918  === Full refresh start ===
+2025-10-06 20:19:52.474  First 10 source cols: 
+2025-10-06 20:19:52.483  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-10-07 08:17:13.365  === Full refresh start ===
+2025-10-07 08:17:29.181  First 10 source cols: 
+2025-10-07 08:17:29.193  Error: Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)"
+2025-10-07 08:19:31.528  === Full refresh start ===
+2025-10-07 08:20:56.690  Fetched rows: 7024 | Columns: 7024
+2025-10-07 08:20:56.735  Truncating target: dbo.[Denial]
+2025-10-07 08:20:57.154  Bulk copying directly to target...
+2025-10-07 08:20:57.772  === Full refresh done ===
+2025-10-07 08:49:31.698  === Full refresh start ===
+2025-10-07 08:50:54.239  Fetched rows: 7024 | Columns: 7024
+2025-10-07 08:50:54.286  Truncating target: dbo.[Denial]
+2025-10-07 08:50:54.760  Bulk copying directly to target...
+2025-10-07 08:50:55.338  === Full refresh done ===
+2025-10-07 09:19:30.494  === Full refresh start ===
+2025-10-07 09:20:52.570  Fetched rows: 7024 | Columns: 7024
+2025-10-07 09:20:52.599  Truncating target: dbo.[Denial]
+2025-10-07 09:20:52.864  Bulk copying directly to target...
+2025-10-07 09:20:53.373  === Full refresh done ===
